@@ -1,0 +1,27 @@
+.da-header{
+  width: 100%;
+  background-color: $main-color;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  position: fixed;
+}
+
+.da-header__title{
+  padding-left: 20px;
+  font-family: 'Oleo Script Swash Caps', cursive;
+  color: darkviolet;
+  font-size: 42px;
+}
+
+.da-header__text{
+  padding-right: 20px;
+  font-family: $font-content;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: orangered;
+}
+
