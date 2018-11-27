@@ -2,11 +2,12 @@ doctype html
 html(lang='en')
     head
         meta(charset="UTF-8")
-        link(rel="icon" type="image/png" href="images/da-logo.png")
-        title DA-Library
-        link(rel="stylesheet" href="css/da-library.css")
+        title AD-Framework
+        link(rel="stylesheet" href="css/da-framework.css")
         link(rel="stylesheet" href="css/example.css")
         link(href="https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps|Rubik" rel="stylesheet")
+        link(href="https://fonts.googleapis.com/css?family=Roboto", rel="stylesheet")
+        link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
         script(src="js/jsFunctions.js")
     body
         include examples/header/header
@@ -15,6 +16,17 @@ html(lang='en')
             .siteContent_da-elements
                 span#shadow.siteContent_elementTitle Shadow
                 include examples/box-shadow/box-shadow
-
-                span#buttons.siteContent_elementTitle Buttons
-                include examples/buttons/buttons
+                span#inputs.siteContent_elementTitle Inputs
+                include examples/inputs/inputs
+                span#icon-button.siteContent_elementTitle Icon Buttons
+                include examples/icon-button/icon-button
+                span#floating-button.siteContent_elementTitle Floating Action Button
+                include examples/floating-button/floating-button
+                span#fab-speed-dial.siteContent_elementTitle FAB Speed Dial
+                include examples/fab-speed-dial/fab-speed-dial
+                span#menu-items.siteContent_elementTitle Menus & Menu Items
+                include examples/menu-items/menu-items
+                span#dropdown.siteContent_elementTitle Menu Dropdown
+                include examples/dropdown/dropdown
+                
+                

@@ -1,0 +1,40 @@
+.material-icons.darkgrey{
+color:#7d7d7d
+}
+
+.material-icons.lgrey{
+	color:#bbbbbb;
+	}
+.da-menu-items{
+	
+	&-el{
+		width: 320px;
+		display: flex;
+		
+		&__but{
+			width: 40px;
+			height: 40px;
+			background: white;
+			border:0;
+			
+		}
+		&__discription{
+			padding-left: 30px;
+			padding-top:10px;
+			
+		
+		}
+		&__error-icon{
+			width: 20px;
+			height: 20px;
+			border:0;
+			background: white;
+		}
+	}
+	
+}
+.menu-items-wraper{
+	margin-left:60px;
+	margin-top:20px;
+}
+

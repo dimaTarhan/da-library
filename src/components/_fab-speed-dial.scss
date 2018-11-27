@@ -1,0 +1,29 @@
+.da-fab-speed-dial{
+
+	&__clear-icon,
+	&__create-icon,
+	&__favorite-icon
+
+	{
+
+		width: 40px;
+		height: 40px;
+		background-color: #fafafa;
+		border:0;
+		border-radius: 35px;
+		&:hover {
+			box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+		}
+	}
+
+	&__menu-icon{
+		width: 56px;
+  	height: 56px;
+  	background-color: #f54a29;
+		border:0;
+		border-radius: 35px;
+		&:hover {
+			box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+		}
+	}
+}

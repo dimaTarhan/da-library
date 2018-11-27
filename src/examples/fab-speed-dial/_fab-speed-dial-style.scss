@@ -1,0 +1,27 @@
+.da-fab-speed-dial{
+	display: flex;
+	&__discription{
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px;
+		color: #333333;
+		margin-bottom:20px;
+		font-weight: bold;
+	
+	}
+
+	&__clear-icon{
+		margin: 20px;
+	}
+	&__create-icon{
+		margin: 20px;
+	}
+	&__favorite-icon{
+		margin: 20px;
+	}
+	&__menu-icon{
+		margin: 10px 0 0px 20px;
+	}
+}
+.fab-speed-dial-wraper{
+	margin-left:60px;
+}
