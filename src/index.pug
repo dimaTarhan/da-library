@@ -7,14 +7,26 @@ html(lang='en')
         link(rel="stylesheet" href="css/da-library.css")
         link(rel="stylesheet" href="css/example.css")
         link(href="https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps|Rubik" rel="stylesheet")
+        script(src = " https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js ")
         script(src="js/jsFunctions.js")
     body
         include examples/header/header
         .siteContent
             include examples/sidebar/sidebar
             .siteContent_da-elements
+
                 span#shadow.siteContent_elementTitle Shadow
                 include examples/box-shadow/box-shadow
+                span.pretty-descrip You can use this style element simply by adding a class to the appropriate block, for example:
+                xmp.prettyprint.pretty-code
+                    include examples/box-shadow/box-shadow
 
                 span#buttons.siteContent_elementTitle Buttons
                 include examples/buttons/buttons
+                span.pretty-descrip Flat buttons are typically used for less-pronounced actions. In cards, Flat buttons
+                    | help maintain an emphasis on card content. Raised buttons are high-emphasis, distinguished by
+                    | their use of elevation and fill. They contain actions that are primary to your app.
+                    | The last example of this demo show how to use buttons:
+                xmp.prettyprint.pretty-code
+                    include examples/buttons/buttons
+

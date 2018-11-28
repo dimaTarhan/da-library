@@ -27,3 +27,20 @@ body{
   margin-top: 50px;
   margin-left: 50px;
 }
+
+.pretty-descrip{
+  display: block;
+  margin-top: 50px;
+  margin-left: 100px;
+  line-height: 1.5;
+}
+
+.pretty-code{
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-right: 60px;
+  border: 2px solid $main-color;
+  border-radius: 10px;
+  background-color: #F0F0F0;
+}

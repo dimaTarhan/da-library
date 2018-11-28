@@ -84,7 +84,7 @@
   color: orangered;
 }
 
-.da-shadow_style {
+.shadow_style {
   width: 100px;
   height: 100px;
   margin-right: 80px;
@@ -107,7 +107,7 @@
       flex-wrap: wrap;
 }
 
-.da-shadow_style:last-child {
+.shadow_style:last-child {
   margin-right: 0;
 }
 
@@ -163,4 +163,21 @@ body {
   font-size: 32px;
   margin-top: 50px;
   margin-left: 50px;
+}
+
+.pretty-descrip {
+  display: block;
+  margin-top: 50px;
+  margin-left: 100px;
+  line-height: 1.5;
+}
+
+.pretty-code {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-right: 60px;
+  border: 2px solid #8CEA5D;
+  border-radius: 10px;
+  background-color: #F0F0F0;
 }

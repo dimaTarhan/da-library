@@ -64,7 +64,7 @@ gulp.task('processPugFiles', function () {
 
 gulp.task('processHtml', function () {
     return gulp.src(pugBlob)
-        .pipe(pug({}))
+        .pipe(pug({pretty:true}))
         .pipe(gulp.dest(distDirectory));
 });
 
