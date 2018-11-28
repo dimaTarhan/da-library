@@ -1,6 +1,8 @@
 .da-card{
   margin: 0 auto;
   padding-bottom: 10px;
+
+  @include shadow-1();
 }
 
 .da-card__title{
