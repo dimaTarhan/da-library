@@ -17,7 +17,8 @@ html(lang='en')
 
                 span#shadow.siteContent_elementTitle Shadow
                 include examples/box-shadow/box-shadow
-                span.pretty-descrip You can use this style element simply by adding a class to the appropriate block, for example:
+                span.pretty-descrip You can use this style element simply by adding a class to the appropriate block,
+                    | for example:
                 xmp.prettyprint.pretty-code
                     include examples/box-shadow/box-shadow
 
@@ -30,3 +31,14 @@ html(lang='en')
                 xmp.prettyprint.pretty-code
                     include examples/buttons/buttons
 
+                span#cards.siteContent_elementTitle Cards
+                span.pretty-descrip Cards are surfaces that display content and actions on a single topic.
+                    | They should be easy to scan for relevant and actionable information. Elements, like text
+                    | and images, should be placed on them in a way that clearly indicates hierarchy. Although cards
+                    | can support multiple actions, UI controls, and an overflow menu, use restraint and remember
+                    | that cards are entry points to more complex and detailed information.
+                include examples/cards/cards
+                span.pretty-descrip For the creation of the above examples of cards, you can use the classes of the
+                    | library, which are given in the code below:
+                xmp.prettyprint.pretty-code
+                    include examples/cards/cards

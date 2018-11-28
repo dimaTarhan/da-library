@@ -1,0 +1,51 @@
+.da-card{
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.da-card__title{
+  font-size: 24px;
+  padding: 26px 18px 0 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.da-card__text{
+  padding: 15px 18px 0 24px;
+  line-height: 1.4;
+  font-size: 14px;
+}
+
+.da-card__header{
+  position: relative;
+  display: flex;
+}
+
+.da-card__image-title{
+  display: flex;
+  position: relative;
+  margin-top: auto;
+  margin-bottom: 10px;
+}
+
+.da-card__image{
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.da-card__line{
+  color: $ripple-initial;
+  margin: 0;
+}
+
+.da-card__button{
+  display: flex;
+  flex-direction: row;
+  margin-left: 24px;
+  padding-right: 18px;
+}

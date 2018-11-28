@@ -4,6 +4,7 @@
 @import "../examples/sidebar/sidebar";
 @import "../examples/box-shadow/shadow-style";
 @import "../examples/buttons/buttons-style";
+@import "../examples/cards/cards-style";
 body{
   margin: 0;
   padding: 0;
@@ -20,6 +21,7 @@ body{
   padding: 50px 0 50px 0;
   margin-left: 300px;
   width: 100%;
+  z-index: 1;
 }
 
 .siteContent_elementTitle{
@@ -33,10 +35,12 @@ body{
   margin-top: 50px;
   margin-left: 100px;
   line-height: 1.5;
+  padding-right: 30px;
 }
 
 .pretty-code{
-  width: 600px;
+  width: 800px;
+  overflow: auto;
   margin: 0 auto;
   margin-top: 20px;
   padding-right: 60px;

@@ -16,6 +16,7 @@
           align-items: center;
   height: 60px;
   position: fixed;
+  z-index: 100;
 }
 
 .da-header__title {
@@ -131,9 +132,32 @@ h3 {
       flex-wrap: wrap;
 }
 
-.da-button {
+.button-style {
   margin-right: 40px;
   margin-top: 20px;
+}
+
+.card-style {
+  width: 450px;
+  margin-top: 50px;
+}
+
+.card-style__button {
+  padding: 0 10px 0 10px;
+  margin-top: 5px;
+}
+
+.card-style__header {
+  height: 180px;
+}
+
+.card-style__button_indent {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.card-style__image-title {
+  color: white;
 }
 
 body {
@@ -157,6 +181,7 @@ body {
   padding: 50px 0 50px 0;
   margin-left: 300px;
   width: 100%;
+  z-index: 1;
 }
 
 .siteContent_elementTitle {
@@ -170,10 +195,12 @@ body {
   margin-top: 50px;
   margin-left: 100px;
   line-height: 1.5;
+  padding-right: 30px;
 }
 
 .pretty-code {
-  width: 600px;
+  width: 800px;
+  overflow: auto;
   margin: 0 auto;
   margin-top: 20px;
   padding-right: 60px;
