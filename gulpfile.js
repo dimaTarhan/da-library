@@ -91,6 +91,3 @@ gulp.task('reloadBrowser', function (done) {
     browserSync.reload();
     done();
 });
-
-
-

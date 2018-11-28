@@ -1,0 +1,87 @@
+.da-inputs-1{
+	width: 321px;
+	height: 31px;
+  font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	opacity:0.4;
+	color: rgba(0, 0, 0, 0.2);
+	border: none;
+	border-bottom: 3px solid rgba(0, 0, 0, 0.12);
+	border-radius: 0;
+}
+.da-inputs-2{
+  width: 835px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+	color: rgba(0, 0, 0, 0.2);
+	border: none;
+	border-bottom: 2px solid #2567c2;
+	border-radius: 0;
+}
+.da-inputs-3_in{
+  width: 321px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+	color: rgba(0, 0, 0, 0.2);
+	border: none;
+	border-bottom: 2px solid #db4432;
+	border-radius: 0;
+}
+
+.da-inputs-4{
+	width: 321px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+	color: rgba(0, 0, 0, 0.2);
+	border: none;
+	border-bottom: 3px dotted rgba(0, 0, 0, 0.2);
+	border-radius: 0;	
+	
+}
+
+.da-inputs-5_in{
+	width: 321px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.2);
+	border: none;
+	border-bottom: 2px solid #2567c2;
+	border-radius: 0;
+}
+.da-inputs-5_lab{
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	color: #2567c2;
+}
+.da-inputs-3_lab{
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	color: red;
+	margin-top: -50px;
+}
+
+.da-inputs-5, .da-inputs-6, .da-inputs-3{
+  display: flex;
+  flex-direction: column;
+  
+}
+.da-inputs-6_lab{
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.4);
+	
+}
+
+.da-inputs-6_in{
+
+	width: 680px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+	color: rgba(0, 0, 0, 0.2);
+	border: none;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+	border-radius: 0;
+	height: 70px;
+	padding: 0;
+}
