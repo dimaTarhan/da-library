@@ -1,7 +1,7 @@
 .da-fab-speed-dial{
 	display: flex;
 	&__discription{
-		font-family: 'Roboto', sans-serif;
+		font-family: $font-family;
 		font-size: 16px;
 		color: #333333;
 		margin-bottom:20px;
@@ -23,5 +23,9 @@
 	}
 }
 .fab-speed-dial-wraper{
-	margin-left:60px;
+	margin-top: 3%;
+	margin-left:20%;
+	margin-bottom:60px;
+	
+
 }

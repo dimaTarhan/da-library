@@ -1,40 +1,44 @@
 .material-icons.darkgrey{
-color:#7d7d7d
+color:#7d7d7d;
+margin-top: 6px;
 }
 
 .material-icons.lgrey{
 	color:#bbbbbb;
 	}
-.da-menu-items{
-	
-	&-el{
-		width: 320px;
-		display: flex;
-		
-		&__but{
-			width: 40px;
-			height: 40px;
-			background: white;
-			border:0;
-			
-		}
-		&__discription{
-			padding-left: 30px;
-			padding-top:10px;
-			
-		
-		}
-		&__error-icon{
-			width: 20px;
-			height: 20px;
-			border:0;
-			background: white;
-		}
-	}
-	
-}
-.menu-items-wraper{
-	margin-left:60px;
-	margin-top:20px;
-}
 
+.da-menu-items-el {
+	display: flex;
+	flex-direction: row;
+
+	&__but {
+		margin-right: 30px;
+		font-size: 22px;
+	}
+	&__error-icon {
+		margin-left: auto;
+		width: 20px;
+		height: 20px;
+	}
+	&__list {
+		list-style-type: none;
+		width: 325px;
+	}
+	& {
+		padding: 15px;
+		display: flex;
+		cursor: pointer;
+		transition: .5s ease;
+		width: 300px;
+	}
+	&:hover {
+		background: #f5f7f7;
+	}
+	&__discription {
+
+		color: #4d4d4e;
+		line-height: 36px;
+		font-size: 15px;
+		font-family: $font-family;
+	}
+}

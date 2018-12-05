@@ -1,0 +1,86 @@
+.da-inputs_simple{
+	width: 321px;
+	height: 31px;
+  font-family: $font-family;
+	font-size: 16px;
+	opacity:0.4;
+	color: rgba(0, 0, 0, 0.2);
+	border: none;
+	border-bottom: 3px solid rgba(0, 0, 0, 0.12);
+	border-radius: 0;
+}
+.da-inputs_active-text{
+  width: 835px;
+  font-family: $font-family;
+  font-size: 16px;
+	color: rgba(0, 0, 0, 0.2);
+	border: none;
+	border-bottom: 2px solid #2567c2;
+	border-radius: 0;
+}
+.da-inputs_invalid{
+  width: 321px;
+  font-family: $font-family;
+  font-size: 16px;
+	color: rgba(0, 0, 0, 0.2);
+	border: none;
+	border-bottom: 2px solid #db4432;
+	border-radius: 0;
+}
+
+.da-inputs_disable{
+	width: 321px;
+	background: none;
+  font-family: $font-family;
+  font-size: 16px;
+	color: rgba(0, 0, 0, 0.2);
+	border: none;
+	border-bottom: 3px dotted rgba(0, 0, 0, 0.2);
+	border-radius: 0;	
+	
+}
+
+.da-inputs_floating{
+	width: 321px;
+	font-family: $font-family;
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.2);
+	border: none;
+	border-bottom: 2px solid #2567c2;
+	border-radius: 0;
+}
+.da-inputs-5_lab{
+	font-family: $font-family;
+	font-size: 12px;
+	color: #2567c2;
+}
+.da-inputs-3_lab{
+	font-family: $font-family;
+	font-size: 12px;
+	color: red;
+	margin-top: -50px;
+}
+
+.da-inputs-6, .da-inputs-3{
+  display: flex;
+  flex-direction: column;
+  
+}
+.da-inputs_text-area{
+	font-family: $font-family;
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.4);
+
+}
+
+.da-inputs_text{
+	width: 680px;
+  font-family: $font-family;
+  font-size: 16px;
+	color: rgba(0, 0, 0, 0.2);
+	border: none;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+	border-radius: 0;
+	height: 70px;
+	padding: 0;
+}

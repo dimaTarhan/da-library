@@ -1,5 +1,9 @@
-.da-menu-items-el{
-
+.da-menu-items{
+	display: flex;
+	flex-direction: column;
+	margin-bottom:60px;
+	margin-left: 20%;
+	margin-top:3%;
 	&__hr{
 		width: 320px;
 		height: 1px;
@@ -7,4 +11,5 @@
 		margin-left:0px;
 		opacity: 0.3;
 	}
+
 }

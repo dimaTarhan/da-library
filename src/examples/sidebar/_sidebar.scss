@@ -1,25 +1,28 @@
 .da-sidebar{
   width: 300px;
+  height: 100vh;
   border-right: 2px solid lightgray;
   padding-top: 20px;
+  position: fixed;
+  overflow: auto;
 }
 
 .da-sidebar__title{
   text-transform: uppercase;
   text-align: center;
-  color: blue;
+  color: grey;
   font-weight: bold;
   font-size: 24px;
   padding-bottom: 10px;
   border-bottom: 2px solid lightgray;
 }
 
+
 .da-sidebar__nav{
   display: flex;
   flex-direction: column;
   padding-top: 20px;
   padding-left: 20px;
- 
 }
 
 .da-sidebar__link{
@@ -37,5 +40,5 @@
 
 .da-sidebar__active{
   opacity: 1;
-  font-weight: bold;
+  color: orangered;
 }
