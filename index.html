@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>AD-Framework</title>
+    <link rel="stylesheet" href="css/da-framework.css">
+    <link rel="stylesheet" href="css/example.css">
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps|Rubik" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src=" https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js "></script>
+    <script src="js/jsFunctions.js"></script>
+  </head>
+  <body>
+    <header class="da-header"><span class="da-header__title">DA-Framework</span><span class="da-header__text">How it works</span></header>
+    <div class="siteContent">
+      <div class="da-sidebar">
+        <div class="da-sidebar__title"><span>elements</span></div>
+        <div class="da-sidebar__nav"><a class="da-sidebar__link" href="#buttons">Buttons</a><a class="da-sidebar__link" href="#cards">Cards</a><a class="da-sidebar__link" href="javascript:void(0)">Checkbox</a><a class="da-sidebar__link" href="javascript:void(0)">Data Tables</a><a class="da-sidebar__link" href="#dialog">Dialog</a><a class="da-sidebar__link" href="#fab-speed-dial">FAB Speed Dial</a><a class="da-sidebar__link" href="#floating-button">Floating Action Button</a><a class="da-sidebar__link" href="#icon-button">Icon Button</a><a class="da-sidebar__link" href="#inputs">Inputs</a><a class="da-sidebar__link" href="#inset-dividers">Inset Dividers</a><a class="da-sidebar__link" href="javascript:void(0)">Lists</a><a class="da-sidebar__link" href="#menu-items">Menus & Menu Items</a><a class="da-sidebar__link" href="#dropdown">Menu Dropdown</a><a class="da-sidebar__link" href="javascript:void(0)">Progress Circular</a><a class="da-sidebar__link" href="javascript:void(0)">Progress Linear</a><a class="da-sidebar__link" href="javascript:void(0)">Radio Button</a><a class="da-sidebar__link" href="#shadow">Shadow</a><a class="da-sidebar__link" href="#slider">Slider</a><a class="da-sidebar__link" href="javascript:void(0)">Switch (Toggle)</a><a class="da-sidebar__link" href="javascript:void(0)">Tabs</a><a class="da-sidebar__link" href="#toast">Toast</a><a class="da-sidebar__link" href="javascript:void(0)">Toolbar</a><a class="da-sidebar__link" href="#tooltips">Tooltips</a></div>
+      </div>
+      <div class="siteContent_da-elements"><span class="siteContent_elementTitle" id="buttons">Buttons</span>
+        <h3>Flat Buttons</h3>
+        <div class="button-wraper">
+          <button class="da-button">Default</button>
+          <button class="da-button da-flat-button_colored">Colored</button>
+          <button class="da-button da-flat-button_disabled">Disabled</button>
+        </div>
+        <h3>Raised Buttons</h3>
+        <div class="button-wraper">
+          <button class="da-button da-raised-button_default">Default</button>
+          <button class="da-button da-raised-button_colored">Colored</button>
+          <button class="da-button da-raised-button_disabled">Disabled</button>
+        </div><span class="pretty-descrip">
+          Flat buttons are typically used for less-pronounced actions. In cards, Flat buttonshelp maintain an emphasis on card content.
+          Raised buttons are high-emphasis, distinguished by
+          their use of elevation and fill. They contain actions that are primary to your app.
+          The last example of this demo show how to use buttons:</span>
+        <xmp class="prettyprint pretty-code">
+          <h3>Flat Buttons</h3>
+          <div class="button-wraper">
+            <button class="da-button">Default</button>
+            <button class="da-button da-flat-button_colored">Colored</button>
+            <button class="da-button da-flat-button_disabled">Disabled</button>
+          </div>
+          <h3>Raised Buttons</h3>
+          <div class="button-wraper">
+            <button class="da-button da-raised-button_default">Default</button>
+            <button class="da-button da-raised-button_colored">Colored</button>
+            <button class="da-button da-raised-button_disabled">Disabled</button>
+          </div>
+        </xmp><span class="siteContent_elementTitle" id="cards">Cards</span><span class="pretty-descrip">
+          Cards are surfaces that display content and actions on a single topic.They should be easy to scan for relevant and actionable information. Elements, like text
+          and images, should be placed on them in a way that clearly indicates hierarchy. Although cards
+          can support multiple actions, UI controls, and an overflow menu, use restraint and remember
+          that cards are entry points to more complex and detailed information.</span>
+        <div class="da-card card-style">
+          <div class="da-card__text">
+            <p>Cards are a convenient means of displaying content composed of different types of objects.</p>
+          </div>
+          <div class="da-card__button">
+            <button class="da-button card-style__button">Hurray!</button>
+          </div>
+        </div>
+        <div class="da-card card-style">
+          <div class="da-card__title">Card headline title</div>
+          <div class="da-card__text">
+            <p>
+              Lorem ipsum dolor sit amet, doming noster at quo, nostrud lucilius rationibus ea duo. Vim no mucius dolores.No bonorum voluptatum vis, has iudicabit consectetuer ne. Nullam sensibus vim id, et quo graeci perpetua.</p>
+          </div>
+          <hr class="da-card__line">
+          <div class="da-card__button">
+            <button class="da-button card-style__button">More info...</button>
+            <button class="da-button card-style__button card-style__button_indent">Decline</button>
+            <button class="da-button da-flat-button_colored card-style__button">Accept</button>
+          </div>
+        </div>
+        <div class="da-card card-style">
+          <div class="da-card__header card-style__header"><img class="da-card__image" src="images/card_picture.png" alt="">
+            <div class="da-card__title da-card__image-title card-style__image-title">Card with image header</div>
+          </div>
+          <div class="da-card__text">
+            <p>
+              Lorem ipsum dolor sit amet, doming noster at quo, nostrud lucilius rationibus ea duo. Vim no mucius dolores.No bonorum voluptatum vis, has iudicabit consectetuer ne. Nullam sensibus vim id, et quo graeci perpetua.</p>
+          </div>
+          <hr class="da-card__line">
+          <div class="da-card__button">
+            <button class="da-button card-style__button">More info...</button>
+            <button class="da-button card-style__button card-style__button_indent">Decline</button>
+            <button class="da-button da-flat-button_colored card-style__button">Accept</button>
+          </div>
+        </div><span class="pretty-descrip">
+          For the creation of the above examples of cards, you can use the classes of thelibrary, which are given in the code below:</span>
+        <xmp class="prettyprint pretty-code">
+          <div class="da-card card-style">
+            <div class="da-card__text">
+              <p>Cards are a convenient means of displaying content composed of different types of objects.</p>
+            </div>
+            <div class="da-card__button">
+              <button class="da-button card-style__button">Hurray!</button>
+            </div>
+          </div>
+          <div class="da-card card-style">
+            <div class="da-card__title">Card headline title</div>
+            <div class="da-card__text">
+              <p>
+                Lorem ipsum dolor sit amet, doming noster at quo, nostrud lucilius rationibus ea duo. Vim no mucius dolores.No bonorum voluptatum vis, has iudicabit consectetuer ne. Nullam sensibus vim id, et quo graeci perpetua.</p>
+            </div>
+            <hr class="da-card__line">
+            <div class="da-card__button">
+              <button class="da-button card-style__button">More info...</button>
+              <button class="da-button card-style__button card-style__button_indent">Decline</button>
+              <button class="da-button da-flat-button_colored card-style__button">Accept</button>
+            </div>
+          </div>
+          <div class="da-card card-style">
+            <div class="da-card__header card-style__header"><img class="da-card__image" src="images/card_picture.png" alt="">
+              <div class="da-card__title da-card__image-title card-style__image-title">Card with image header</div>
+            </div>
+            <div class="da-card__text">
+              <p>
+                Lorem ipsum dolor sit amet, doming noster at quo, nostrud lucilius rationibus ea duo. Vim no mucius dolores.No bonorum voluptatum vis, has iudicabit consectetuer ne. Nullam sensibus vim id, et quo graeci perpetua.</p>
+            </div>
+            <hr class="da-card__line">
+            <div class="da-card__button">
+              <button class="da-button card-style__button">More info...</button>
+              <button class="da-button card-style__button card-style__button_indent">Decline</button>
+              <button class="da-button da-flat-button_colored card-style__button">Accept</button>
+            </div>
+          </div>
+        </xmp><span class="siteContent_elementTitle" id="fab-speed-dial">FAB Speed Dial</span>
+        <nav class="da-fab-speed-dial"><a class="buttons" href="#">
+            <div class="material-icons grey-m">clear</div></a><a class="buttons" href="#">
+            <div class="material-icons grey-m">favorite</div></a><a class="buttons" href="#">
+            <div class="material-icons grey-m">create</div></a><a class="buttons" href="#">
+            <div class="material-icons white-m">menu</div></a></nav><span class="pretty-descrip">
+          FAB Speed Dial are typically used for less-pronounced actions. They contain actions that are primary to your app.The last example of this demo show how to use buttons:</span>
+        <xmp class="prettyprint pretty-code">
+          <nav class="da-fab-speed-dial"><a class="buttons" href="#">
+              <div class="material-icons grey-m">clear</div></a><a class="buttons" href="#">
+              <div class="material-icons grey-m">favorite</div></a><a class="buttons" href="#">
+              <div class="material-icons grey-m">create</div></a><a class="buttons" href="#">
+              <div class="material-icons white-m">menu</div></a></nav>
+        </xmp><span class="siteContent_elementTitle" id="floating-button">Floating Action Button</span>
+        <div class="floating-button-wraper">
+          <div class="da-floating-button">
+            <div class="da-floating-button__discription da-floating-button__style">Regular</div>
+            <button class="da-floating-button__arrow-icon da-icon-button__style">
+              <div class="material-icons white">arrow_forward</div>
+            </button>
+            <button class="da-floating-button__create-icon da-icon-button__style">
+              <div class="material-icons white">create</div>
+            </button>
+            <button class="da-floating-button__add-icon da-icon-button__style">
+              <div class="material-icons grey">add</div>
+            </button>
+          </div>
+          <div class="da-floating-button-m">
+            <div class="da-floating-button-m__discription da-floating-button-m__style">Mini</div>
+            <button class="da-floating-button-m__done da-icon-button-m__style">
+              <div class="material-icons white">done</div>
+            </button>
+            <button class="da-floating-button-m__reply da-icon-button-m__style">
+              <div class="material-icons white">reply</div>
+            </button>
+            <button class="da-floating-button-m__clear da-icon-button-m__style">
+              <div class="material-icons grey">clear</div>
+            </button>
+          </div>
+        </div><span class="pretty-descrip">
+          A floating action button (FAB) performs the primary, or most common, action on a screen. It appears in front of all screen content, typically as a circular shape with an icon in its center. 
+          FABs come in three types: regular, mini. Only use a FAB if it is the most suitable way to present a 
+          screen’s primary action. The last example of this demo show how to use buttons:</span>
+        <xmp class="prettyprint pretty-code">
+          <div class="floating-button-wraper">
+            <div class="da-floating-button">
+              <div class="da-floating-button__discription da-floating-button__style">Regular</div>
+              <button class="da-floating-button__arrow-icon da-icon-button__style">
+                <div class="material-icons white">arrow_forward</div>
+              </button>
+              <button class="da-floating-button__create-icon da-icon-button__style">
+                <div class="material-icons white">create</div>
+              </button>
+              <button class="da-floating-button__add-icon da-icon-button__style">
+                <div class="material-icons grey">add</div>
+              </button>
+            </div>
+            <div class="da-floating-button-m">
+              <div class="da-floating-button-m__discription da-floating-button-m__style">Mini</div>
+              <button class="da-floating-button-m__done da-icon-button-m__style">
+                <div class="material-icons white">done</div>
+              </button>
+              <button class="da-floating-button-m__reply da-icon-button-m__style">
+                <div class="material-icons white">reply</div>
+              </button>
+              <button class="da-floating-button-m__clear da-icon-button-m__style">
+                <div class="material-icons grey">clear</div>
+              </button>
+            </div>
+          </div>
+        </xmp><span class="siteContent_elementTitle" id="icon-button">Icon Buttons</span>
+        <div class="icon-button-wraper">
+          <div class="da-icon-button">
+            <div class="da-icon-button__discription da-icon-button__style">icon buttons</div>
+            <button class="da-icon-button__el da-icon-button__style">
+              <div class="material-icons">menu </div>
+            </button>
+            <button class="da-icon-button__el da-icon-button__style">
+              <div class="material-icons">arrow_back</div>
+            </button>
+            <button class="da-icon-button__el da-icon-button__style">
+              <div class="material-icons">arrow_forward</div>
+            </button>
+            <button class="da-icon-button__el da-icon-button__style">
+              <div class="material-icons">done</div>
+            </button>
+            <button class="da-icon-button__el da-icon-button__style">
+              <div class="material-icons">close</div>
+            </button>
+            <button class="da-icon-button__el da-icon-button__style">
+              <div class="material-icons">fullscreen</div>
+            </button>
+            <button class="da-icon-button__el da-icon-button__style">
+              <div class="material-icons">fullscreen_exit</div>
+            </button>
+            <button class="da-icon-button__el da-icon-button__style">
+              <div class="material-icons">more_vert</div>
+            </button>
+            <button class="da-icon-button__el da-icon-button__style"> 
+              <div class="material-icons">refresh</div>
+            </button>
+          </div>
+          <div class="da-styled">
+            <div class="da-styled__discription da-styled__style">styled</div>
+            <button class="da-styled__el da-styled__style">
+              <div class="material-icons">favorite </div>
+            </button>
+            <button class="da-styled__el da-styled__style">
+              <div class="material-icons red">favorite </div>
+            </button>
+            <button class="da-styled__el da-styled__style">
+              <div class="material-icons grey">favorite </div>
+            </button>
+          </div>
+          <div class="da-segmented">
+            <div class="da-segmented__discription da-segmented__style">segmented</div>
+            <button class="da-segmented__el da-segmented__style">
+              <div class="material-icons grey">directions_walk</div>
+            </button>
+            <button class="da-segmented__el da-segmented__style">
+              <div class="material-icons grey">directions_bike</div>
+            </button>
+            <button class="da-segmented__el da-segmented__style">
+              <div class="material-icons grey">directions_bus</div>
+            </button>
+            <button class="da-segmented__el da-segmented__style">
+              <div class="material-icons grey">time_to_leave</div>
+            </button>
+          </div>
+        </div><span class="pretty-descrip">
+          Icon buttons are typically used for different actions. Sometimes you might want to have icons for certain button to enhance the UX of the application as we recognize logos more easily than plain text. 
+          For example, if you have a delete button or create you can label it with a dustbin icon.
+          The last example of this demo show how to use buttons:</span>
+        <xmp class="prettyprint pretty-code">
+          <div class="icon-button-wraper">
+            <div class="da-icon-button">
+              <div class="da-icon-button__discription da-icon-button__style">icon buttons</div>
+              <button class="da-icon-button__el da-icon-button__style">
+                <div class="material-icons">menu </div>
+              </button>
+              <button class="da-icon-button__el da-icon-button__style">
+                <div class="material-icons">arrow_back</div>
+              </button>
+              <button class="da-icon-button__el da-icon-button__style">
+                <div class="material-icons">arrow_forward</div>
+              </button>
+              <button class="da-icon-button__el da-icon-button__style">
+                <div class="material-icons">done</div>
+              </button>
+              <button class="da-icon-button__el da-icon-button__style">
+                <div class="material-icons">close</div>
+              </button>
+              <button class="da-icon-button__el da-icon-button__style">
+                <div class="material-icons">fullscreen</div>
+              </button>
+              <button class="da-icon-button__el da-icon-button__style">
+                <div class="material-icons">fullscreen_exit</div>
+              </button>
+              <button class="da-icon-button__el da-icon-button__style">
+                <div class="material-icons">more_vert</div>
+              </button>
+              <button class="da-icon-button__el da-icon-button__style"> 
+                <div class="material-icons">refresh</div>
+              </button>
+            </div>
+            <div class="da-styled">
+              <div class="da-styled__discription da-styled__style">styled</div>
+              <button class="da-styled__el da-styled__style">
+                <div class="material-icons">favorite </div>
+              </button>
+              <button class="da-styled__el da-styled__style">
+                <div class="material-icons red">favorite </div>
+              </button>
+              <button class="da-styled__el da-styled__style">
+                <div class="material-icons grey">favorite </div>
+              </button>
+            </div>
+            <div class="da-segmented">
+              <div class="da-segmented__discription da-segmented__style">segmented</div>
+              <button class="da-segmented__el da-segmented__style">
+                <div class="material-icons grey">directions_walk</div>
+              </button>
+              <button class="da-segmented__el da-segmented__style">
+                <div class="material-icons grey">directions_bike</div>
+              </button>
+              <button class="da-segmented__el da-segmented__style">
+                <div class="material-icons grey">directions_bus</div>
+              </button>
+              <button class="da-segmented__el da-segmented__style">
+                <div class="material-icons grey">time_to_leave</div>
+              </button>
+            </div>
+          </div>
+        </xmp><span class="siteContent_elementTitle" id="inputs">Inputs</span>
+        <div class="inputs-wraper">
+          <input class="da-inputs_simple da-inputs_style" placeholder="Input name" type="text" required>
+          <input class="da-inputs_active-text da-inputs_style" placeholder="Active text input" type="text" required>
+          <div class="da-inputs-3"> 
+            <input class="da-inputs_invalid da-inputs_style" placeholder="Invalid text input" type="text" required>
+            <label class="da-inputs-3_lab" for="name">This input requires a value!</label>
+          </div>
+          <input class="da-inputs_disable da-inputs_style" disabled placeholder="I'm disabled" type="text" required>
+          <div class="da-inputs-5">
+            <input class="da-inputs_floating" id="name" type="text" required="">
+            <label class="form-control-placeholder" for="name">Floating label</label>
+          </div>
+          <div class="da-inputs-6">
+            <label class="da-inputs_text-area" for="name">Text area</label>
+            <textarea class="da-inputs_text da-inputs_style" placeholder="Lorem ipsum dolor sit amet, doming noster at quo, nostrud lucilius rationibus ea duo. Vim no mucius dolores. No bonorum voluptatum vis, has iudicabit consectetuer ne. Nullam sensibus vim id, et quo graeci perpetua." type="text" required></textarea>
+          </div>
+        </div><span class="pretty-descrip">
+          The input tag specifies an input field where the user can enter data. input elements are used within a  form element to declare input controls that allow users to input data. 
+          An input field can vary in many ways, depending on the type attribute.</span>
+        <xmp class="prettyprint pretty-code">
+          <div class="inputs-wraper">
+            <input class="da-inputs_simple da-inputs_style" placeholder="Input name" type="text" required>
+            <input class="da-inputs_active-text da-inputs_style" placeholder="Active text input" type="text" required>
+            <div class="da-inputs-3"> 
+              <input class="da-inputs_invalid da-inputs_style" placeholder="Invalid text input" type="text" required>
+              <label class="da-inputs-3_lab" for="name">This input requires a value!</label>
+            </div>
+            <input class="da-inputs_disable da-inputs_style" disabled placeholder="I'm disabled" type="text" required>
+            <div class="da-inputs-5">
+              <input class="da-inputs_floating" id="name" type="text" required="">
+              <label class="form-control-placeholder" for="name">Floating label</label>
+            </div>
+            <div class="da-inputs-6">
+              <label class="da-inputs_text-area" for="name">Text area</label>
+              <textarea class="da-inputs_text da-inputs_style" placeholder="Lorem ipsum dolor sit amet, doming noster at quo, nostrud lucilius rationibus ea duo. Vim no mucius dolores. No bonorum voluptatum vis, has iudicabit consectetuer ne. Nullam sensibus vim id, et quo graeci perpetua." type="text" required></textarea>
+            </div>
+          </div>
+        </xmp><span class="siteContent_elementTitle" id="inset-dividers">Inset Dividers</span>
+        <div class="da-inset-dividers">
+          <div class="da-inset-dividers__but da-menu-items__style"> 
+            <div class="material-icons darkblue">call </div>
+          </div>
+          <div class="da-inset-dividers__discription da-menu-items__style">(650) 555-1234</div>
+          <div class="da-inset-dividers__discription_sm da-menu-items__style">mobile</div>
+          <div class="da-inset-dividers__discription da-menu-items__style">(323) 555-6789</div>
+          <div class="da-inset-dividers__discription_sm da-menu-items__style">work</div>
+          <hr class="da-inset-dividers__hr">
+          <div class="da-inset-dividers__but da-menu-items__style">
+            <div class="material-icons darkblue">mail_outline</div>
+          </div>
+          <div class="da-inset-dividers__discription da-menu-items__style">aliconnors@example.com</div>
+          <div class="da-inset-dividers__discription_sm da-menu-items__style">personal</div>
+          <div class="da-inset-dividers__discription da-menu-items__style">ali_connors@example.com</div>
+          <div class="da-inset-dividers__discription_sm da-menu-items__style">work</div>
+          <hr class="da-inset-dividers__hr">
+          <div class="da-inset-dividers__but da-menu-items__style">
+            <div class="material-icons darkblue">place</div>
+          </div>
+          <div class="da-inset-dividers__discription da-menu-items__style">2000 SW 1st Ave San Francisco, CA 94112</div>
+          <div class="da-inset-dividers__discription_sm da-menu-items__style">home</div>
+          <div class="da-inset-dividers__discription da-menu-items__style">1600 Amphitheatre Pkwy Mountain View, CA 94043</div>
+          <div class="da-inset-dividers__discription_sm da-menu-items__style">work</div>
+        </div><span class="pretty-descrip">
+          Divider is a component that allows for Material styling of a line separator with various orientation options.Dividers can be added to lists as a means of separating content into distinct sections. Inset dividers can also be added to provide the appearance of distinct elements in a list without cluttering content like avatar images or icons.
+          The last example of this demo show how to use inset dividers:</span>
+        <xmp class="prettyprint pretty-code">
+          <div class="da-inset-dividers">
+            <div class="da-inset-dividers__but da-menu-items__style"> 
+              <div class="material-icons darkblue">call </div>
+            </div>
+            <div class="da-inset-dividers__discription da-menu-items__style">(650) 555-1234</div>
+            <div class="da-inset-dividers__discription_sm da-menu-items__style">mobile</div>
+            <div class="da-inset-dividers__discription da-menu-items__style">(323) 555-6789</div>
+            <div class="da-inset-dividers__discription_sm da-menu-items__style">work</div>
+            <hr class="da-inset-dividers__hr">
+            <div class="da-inset-dividers__but da-menu-items__style">
+              <div class="material-icons darkblue">mail_outline</div>
+            </div>
+            <div class="da-inset-dividers__discription da-menu-items__style">aliconnors@example.com</div>
+            <div class="da-inset-dividers__discription_sm da-menu-items__style">personal</div>
+            <div class="da-inset-dividers__discription da-menu-items__style">ali_connors@example.com</div>
+            <div class="da-inset-dividers__discription_sm da-menu-items__style">work</div>
+            <hr class="da-inset-dividers__hr">
+            <div class="da-inset-dividers__but da-menu-items__style">
+              <div class="material-icons darkblue">place</div>
+            </div>
+            <div class="da-inset-dividers__discription da-menu-items__style">2000 SW 1st Ave San Francisco, CA 94112</div>
+            <div class="da-inset-dividers__discription_sm da-menu-items__style">home</div>
+            <div class="da-inset-dividers__discription da-menu-items__style">1600 Amphitheatre Pkwy Mountain View, CA 94043</div>
+            <div class="da-inset-dividers__discription_sm da-menu-items__style">work</div>
+          </div>
+        </xmp><span class="siteContent_elementTitle" id="menu-items">Menus & Menu Items</span>
+        <div class="da-menu-items">
+          <div class="da-menu-items-el">
+            <div class="da-menu-items-el__but da-menu-items__style"> 
+              <div class="material-icons darkgrey">query_builder </div>
+            </div>
+            <div class="da-menu-items-el__discription da-menu-items__style">Recent Articles</div>
+          </div>
+          <div class="da-menu-items-el">
+            <div class="da-menu-items-el__but da-menu-items__style">
+              <div class="material-icons darkgrey">assignment_returned</div>
+            </div>
+            <div class="da-menu-items-el__discription da-menu-items__style">Archive</div>
+          </div>
+          <div class="da-menu-items-el">
+            <div class="da-menu-items-el__but da-menu-items__style">
+              <div class="material-icons darkgrey">done</div>
+            </div>
+            <div class="da-menu-items-el__discription da-menu-items__style">Completed</div>
+          </div>
+          <hr class="da-menu-items__hr">
+          <div class="da-menu-items-el">
+            <div class="da-menu-items-el__but da-menu-items__style">
+              <div class="material-icons darkgrey">send</div>
+            </div>
+            <div class="da-menu-items-el__discription da-menu-items__style">Sent</div>
+            <div class="da-menu-items-el__error-icon da-menu-items__style">
+              <div class="material-icons lgrey">error</div>
+            </div>
+          </div>
+          <div class="da-menu-items-el">
+            <div class="da-menu-items-el__but da-menu-items__style">
+              <div class="material-icons darkgrey">delete</div>
+            </div>
+            <div class="da-menu-items-el__discription da-menu-items__style">Trash</div>
+            <div class="da-menu-items-el__error-icon da-menu-items__style">
+              <div class="material-icons lgrey">error</div>
+            </div>
+          </div>
+          <div class="da-menu-items-el">
+            <div class="da-menu-items-el__but da-menu-items__style">
+              <div class="material-icons darkgrey">star_rate</div>
+            </div>
+            <div class="da-menu-items-el__discription da-menu-items__style">Starred</div>
+            <div class="da-menu-items-el__error-icon da-menu-items__style">
+              <div class="material-icons lgrey">error</div>
+            </div>
+          </div>
+          <div class="da-menu-items-el">
+            <div class="da-menu-items-el__but da-menu-items__style">
+              <div class="material-icons darkgrey">question_answer</div>
+            </div>
+            <div class="da-menu-items-el__discription da-menu-items__style">Forums</div>
+            <div class="da-menu-items-el__error-icon da-menu-items__style">
+              <div class="material-icons lgrey">error</div>
+            </div>
+          </div>
+        </div><span class="pretty-descrip">
+          A menu displays a list of choices on a temporary surface. They appear when users interact with a button and actions.For example, 
+          if you have a delete button or create you can label it with a dustbin icon.
+          The last example of this demo show how to use buttons:</span>
+        <xmp class="prettyprint pretty-code">
+          <div class="da-menu-items">
+            <div class="da-menu-items-el">
+              <div class="da-menu-items-el__but da-menu-items__style"> 
+                <div class="material-icons darkgrey">query_builder </div>
+              </div>
+              <div class="da-menu-items-el__discription da-menu-items__style">Recent Articles</div>
+            </div>
+            <div class="da-menu-items-el">
+              <div class="da-menu-items-el__but da-menu-items__style">
+                <div class="material-icons darkgrey">assignment_returned</div>
+              </div>
+              <div class="da-menu-items-el__discription da-menu-items__style">Archive</div>
+            </div>
+            <div class="da-menu-items-el">
+              <div class="da-menu-items-el__but da-menu-items__style">
+                <div class="material-icons darkgrey">done</div>
+              </div>
+              <div class="da-menu-items-el__discription da-menu-items__style">Completed</div>
+            </div>
+            <hr class="da-menu-items__hr">
+            <div class="da-menu-items-el">
+              <div class="da-menu-items-el__but da-menu-items__style">
+                <div class="material-icons darkgrey">send</div>
+              </div>
+              <div class="da-menu-items-el__discription da-menu-items__style">Sent</div>
+              <div class="da-menu-items-el__error-icon da-menu-items__style">
+                <div class="material-icons lgrey">error</div>
+              </div>
+            </div>
+            <div class="da-menu-items-el">
+              <div class="da-menu-items-el__but da-menu-items__style">
+                <div class="material-icons darkgrey">delete</div>
+              </div>
+              <div class="da-menu-items-el__discription da-menu-items__style">Trash</div>
+              <div class="da-menu-items-el__error-icon da-menu-items__style">
+                <div class="material-icons lgrey">error</div>
+              </div>
+            </div>
+            <div class="da-menu-items-el">
+              <div class="da-menu-items-el__but da-menu-items__style">
+                <div class="material-icons darkgrey">star_rate</div>
+              </div>
+              <div class="da-menu-items-el__discription da-menu-items__style">Starred</div>
+              <div class="da-menu-items-el__error-icon da-menu-items__style">
+                <div class="material-icons lgrey">error</div>
+              </div>
+            </div>
+            <div class="da-menu-items-el">
+              <div class="da-menu-items-el__but da-menu-items__style">
+                <div class="material-icons darkgrey">question_answer</div>
+              </div>
+              <div class="da-menu-items-el__discription da-menu-items__style">Forums</div>
+              <div class="da-menu-items-el__error-icon da-menu-items__style">
+                <div class="material-icons lgrey">error</div>
+              </div>
+            </div>
+          </div>
+        </xmp><span class="siteContent_elementTitle" id="dropdown">Menu Dropdown</span>
+        <div class="da-dropdown">
+          <div class="da-dropdown__el">
+            <button class="da-dropdown__el_but da-dropdown__style"> 
+              <div class="material-icons dgrey">query_builder </div>
+            </button>
+            <div class="da-dropdown__el_discription da-dropdown__style">Recent Articles</div>
+          </div>
+          <div class="da-dropdown__el">
+            <button class="da-dropdown__el_but da-dropdown__style">
+              <div class="material-icons dgrey">assignment_returned</div>
+            </button>
+            <div class="da-dropdown__el_discription da-dropdown__style">Archive</div>
+          </div>
+          <div class="da-dropdown__el">
+            <button class="da-dropdown__el_but da-dropdown__style">
+              <div class="material-icons dgrey">done</div>
+            </button>
+            <div class="da-dropdown__el_discription da-dropdown__style">Completed</div>
+          </div>
+        </div><span class="pretty-descrip">
+          A dropdown menu is a compact way of displaying multiple choices. It appears upon interaction with an element (such as an icon or button) or when users perform a specific action.
+          The last example of this demo show how to use buttons:</span>
+        <xmp class="prettyprint pretty-code">
+          <div class="da-dropdown">
+            <div class="da-dropdown__el">
+              <button class="da-dropdown__el_but da-dropdown__style"> 
+                <div class="material-icons dgrey">query_builder </div>
+              </button>
+              <div class="da-dropdown__el_discription da-dropdown__style">Recent Articles</div>
+            </div>
+            <div class="da-dropdown__el">
+              <button class="da-dropdown__el_but da-dropdown__style">
+                <div class="material-icons dgrey">assignment_returned</div>
+              </button>
+              <div class="da-dropdown__el_discription da-dropdown__style">Archive</div>
+            </div>
+            <div class="da-dropdown__el">
+              <button class="da-dropdown__el_but da-dropdown__style">
+                <div class="material-icons dgrey">done</div>
+              </button>
+              <div class="da-dropdown__el_discription da-dropdown__style">Completed</div>
+            </div>
+          </div>
+        </xmp><span class="siteContent_elementTitle" id="shadow">Shadow</span>
+        <div class="shadow-wraper">
+          <div class="da-shadow-1 da-shadow_style"></div>
+          <div class="da-shadow-2 da-shadow_style"></div>
+          <div class="da-shadow-3 da-shadow_style"></div>
+          <div class="da-shadow-4 da-shadow_style"></div>
+          <div class="da-shadow-5 da-shadow_style"></div>
+        </div><span class="pretty-descrip">
+          You can use this style element simply by adding a class to the appropriate block,for example:</span>
+        <xmp class="prettyprint pretty-code">
+          <div class="shadow-wraper">
+            <div class="da-shadow-1 da-shadow_style"></div>
+            <div class="da-shadow-2 da-shadow_style"></div>
+            <div class="da-shadow-3 da-shadow_style"></div>
+            <div class="da-shadow-4 da-shadow_style"></div>
+            <div class="da-shadow-5 da-shadow_style"></div>
+          </div>
+        </xmp><span class="siteContent_elementTitle" id="slider">Slider</span>
+        <div class="da-slidecontainer">
+          <div class="da-slidecontainer__header">Music, video, games & other media</div>
+          <input class="da-slidecontainer__slider" id="myRange" type="range" min="1" max="100" value="50">
+          <div class="da-slidecontainer__header">Notifications</div>
+          <input class="da-slidecontainer__slider big-or" id="myRange" type="range" min="1" max="100" value="50">
+          <div class="da-slidecontainer-with-value">
+            <div class="da-slidecontainer-with-value__text">R</div>
+            <input class="da-slidecontainer__slider blue" id="myRange1" type="range" min="1" max="100" value="50"><span id="demo"></span>
+          </div>
+          <div class="da-slidecontainer-with-value">
+            <div class="da-slidecontainer-with-value__text">G</div>
+            <input class="da-slidecontainer__slider big" id="myRange2" type="range" min="1" max="100" value="50"><span id="demo2"></span>
+          </div>
+          <div class="da-slidecontainer-with-value">
+            <div class="da-slidecontainer-with-value__text">B</div>
+            <input class="da-slidecontainer__slider blue" id="myRange3" type="range" min="1" max="100" value="50"><span id="demo3"></span>
+          </div>
+          <div class="da-slidecontainer__header">Brightness</div>
+          <input class="da-slidecontainer__slider big-gr" id="myRange" type="range" min="1" max="100" value="50">
+          <div class="da-slidecontainer__header">Ratings</div>
+          <input class="da-slidecontainer__slider big-gr" id="myRange" type="range" min="1" max="100" value="50">
+        </div><span class="pretty-descrip">
+          Sliders allow users to make selections from a range of values.for example:</span>
+        <xmp class="prettyprint pretty-code">
+          <div class="da-slidecontainer">
+            <div class="da-slidecontainer__header">Music, video, games & other media</div>
+            <input class="da-slidecontainer__slider" id="myRange" type="range" min="1" max="100" value="50">
+            <div class="da-slidecontainer__header">Notifications</div>
+            <input class="da-slidecontainer__slider big-or" id="myRange" type="range" min="1" max="100" value="50">
+            <div class="da-slidecontainer-with-value">
+              <div class="da-slidecontainer-with-value__text">R</div>
+              <input class="da-slidecontainer__slider blue" id="myRange1" type="range" min="1" max="100" value="50"><span id="demo"></span>
+            </div>
+            <div class="da-slidecontainer-with-value">
+              <div class="da-slidecontainer-with-value__text">G</div>
+              <input class="da-slidecontainer__slider big" id="myRange2" type="range" min="1" max="100" value="50"><span id="demo2"></span>
+            </div>
+            <div class="da-slidecontainer-with-value">
+              <div class="da-slidecontainer-with-value__text">B</div>
+              <input class="da-slidecontainer__slider blue" id="myRange3" type="range" min="1" max="100" value="50"><span id="demo3"></span>
+            </div>
+            <div class="da-slidecontainer__header">Brightness</div>
+            <input class="da-slidecontainer__slider big-gr" id="myRange" type="range" min="1" max="100" value="50">
+            <div class="da-slidecontainer__header">Ratings</div>
+            <input class="da-slidecontainer__slider big-gr" id="myRange" type="range" min="1" max="100" value="50">
+          </div>
+        </xmp><span class="siteContent_elementTitle" id="tooltips">Tooltips</span>
+        <div class="da-tooltips-wrapper">
+          <div class="da-tooltips">
+            <button class="da-tooltips__arrow-icon da-icon-button__style">
+              <div class="material-icons white">arrow_forward</div>
+            </button>
+            <div class="tooltip tooltip_left">Tooltip text</div>
+          </div>
+          <div class="da-tooltips">
+            <button class="da-tooltips__create-icon da-icon-button__style">
+              <div class="material-icons white">create</div>
+            </button>
+            <div class="tooltip tooltip_bottom">Tooltip text</div>
+          </div>
+          <div class="da-tooltips">
+            <button class="da-tooltips__add-icon da-icon-button__style">
+              <div class="material-icons grey">add</div>
+            </button>
+            <div class="tooltip tooltip_top">Tooltip text</div>
+          </div>
+          <div class="da-tooltips">
+            <button class="da-tooltips__done da-icon-button-m__style">
+              <div class="material-icons white">done</div>
+            </button>
+            <div class="tooltip tooltip_right">Tooltip text</div>
+          </div>
+        </div><span class="pretty-descrip">Tooltips display informative text when users hover over, focus on, or tap an element. For example:</span>
+        <xmp class="prettyprint pretty-code">
+          <div class="da-tooltips-wrapper">
+            <div class="da-tooltips">
+              <button class="da-tooltips__arrow-icon da-icon-button__style">
+                <div class="material-icons white">arrow_forward</div>
+              </button>
+              <div class="tooltip tooltip_left">Tooltip text</div>
+            </div>
+            <div class="da-tooltips">
+              <button class="da-tooltips__create-icon da-icon-button__style">
+                <div class="material-icons white">create</div>
+              </button>
+              <div class="tooltip tooltip_bottom">Tooltip text</div>
+            </div>
+            <div class="da-tooltips">
+              <button class="da-tooltips__add-icon da-icon-button__style">
+                <div class="material-icons grey">add</div>
+              </button>
+              <div class="tooltip tooltip_top">Tooltip text</div>
+            </div>
+            <div class="da-tooltips">
+              <button class="da-tooltips__done da-icon-button-m__style">
+                <div class="material-icons white">done</div>
+              </button>
+              <div class="tooltip tooltip_right">Tooltip text</div>
+            </div>
+          </div>
+        </xmp><span class="siteContent_elementTitle" id="toast">Toast</span>
+        <div class="da-toast">
+          <div class="da-toast-first">Your draft has been discarded.</div>
+          <div class="da-toast-connect">Connection timed out. Showing limited messages.
+            <button class="da-toast-connect__button">RETRY</button>
+          </div>
+          <div class="da-toast-message">Message sent</div>
+        </div>
+        <pan class="pretty-descrip">Materialize provides an easy way for you to send unobtrusive alerts to your users through toasts. These toasts are also placed and sized responsively</pan>
+        <xmp class="prettyprint pretty-code">
+          <div class="da-toast">
+            <div class="da-toast-first">Your draft has been discarded.</div>
+            <div class="da-toast-connect">Connection timed out. Showing limited messages.
+              <button class="da-toast-connect__button">RETRY</button>
+            </div>
+            <div class="da-toast-message">Message sent</div>
+          </div>
+        </xmp><span class="siteContent_elementTitle" id="dialog">Dialog</span>
+        <div class="da-dialog card-style">
+          <div class="da-dialog__title">Dialog</div>
+          <div class="da-card__text">
+            <p>
+              Lorem ipsum dolor sit amet, doming noster at quo, nostrud lucilius rationibus ea duo. Vim no mucius dolores. No bonorum voluptatum vis, has iudicabit consectetuer ne. Nullam sensibus vim id, et quo graeci perpetua.</p>
+            <p>
+              Id qui scripta laboramus dissentiet, verterem partiendo vim atStet dissentiet ut mei. Iriure facilis eloquentiam pro eu, nec an esse inciderint. In meliore abhorreant sea. Eros nostro ocurreret at nec. Cu per regione persecuti.</p>
+            <p>
+              Lorem ipsum dolor sit amet, doming noster at quo, nostrud lucilius rationibus ea duo. Vim no mucius dolores. No bonorum voluptatum vis, has iudicabit consectetuer ne. Nullam sensibus vim id, et quo graeci perpetua.</p>
+          </div>
+          <div class="da-card__button">
+            <button class="da-button card-style__button">More info...</button>
+            <button class="da-button card-style__button card-style__button_indent">Decline</button>
+            <button class="da-button da-flat-button_colored card-style__button">Accept</button>
+          </div>
+        </div>
+        <pan class="pretty-descrip">
+          Dialog are surfaces that display content and actions on a single topic.They should be easy to scan for relevant and actionable information. Elements, like text
+          and buttons, should be placed on them in a way that clearly indicates hierarchy. 
+        </pan>
+        <xmp class="prettyprint pretty-code">
+          <div class="da-dialog card-style">
+            <div class="da-dialog__title">Dialog</div>
+            <div class="da-card__text">
+              <p>
+                Lorem ipsum dolor sit amet, doming noster at quo, nostrud lucilius rationibus ea duo. Vim no mucius dolores. No bonorum voluptatum vis, has iudicabit consectetuer ne. Nullam sensibus vim id, et quo graeci perpetua.</p>
+              <p>
+                Id qui scripta laboramus dissentiet, verterem partiendo vim atStet dissentiet ut mei. Iriure facilis eloquentiam pro eu, nec an esse inciderint. In meliore abhorreant sea. Eros nostro ocurreret at nec. Cu per regione persecuti.</p>
+              <p>
+                Lorem ipsum dolor sit amet, doming noster at quo, nostrud lucilius rationibus ea duo. Vim no mucius dolores. No bonorum voluptatum vis, has iudicabit consectetuer ne. Nullam sensibus vim id, et quo graeci perpetua.</p>
+            </div>
+            <div class="da-card__button">
+              <button class="da-button card-style__button">More info...</button>
+              <button class="da-button card-style__button card-style__button_indent">Decline</button>
+              <button class="da-button da-flat-button_colored card-style__button">Accept</button>
+            </div>
+          </div>
+        </xmp>
+      </div>
+    </div>
+    <script src="js/slider.js"></script>
+    <script src="js/slider2.js"></script>
+    <script src="js/slider1.js"></script>
+  </body>
+</html>
