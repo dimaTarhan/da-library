@@ -42,6 +42,7 @@
 
 .da-inputs_floating{
 	width: 321px;
+	margin-left:60px;
 	font-family: $font-family;
 	font-size: 16px;
 	color: rgba(0, 0, 0, 0.2);
@@ -49,11 +50,7 @@
 	border-bottom: 2px solid #2567c2;
 	border-radius: 0;
 }
-.da-inputs-5_lab{
-	font-family: $font-family;
-	font-size: 12px;
-	color: #2567c2;
-}
+
 .da-inputs-3_lab{
 	font-family: $font-family;
 	font-size: 12px;
@@ -84,3 +81,28 @@
 	height: 70px;
 	padding: 0;
 }
+.form-control-placeholder {
+  position: absolute;
+  top: 0;
+  padding: 7px 0 0 13px;
+  transition: all 200ms;
+	opacity: 0.5;
+	color:#2567c2;
+	margin-left:-335px;
+	margin-bottom:30px;
+	margin-top:-10px;
+}
+
+.da-inputs_floating:focus + .form-control-placeholder,
+.da-inputs_floating:valid + .form-control-placeholder {
+  font-size: 75%;
+  transform: translate3d(0, -100%, 0);
+	opacity: 1;
+
+}
+
+.da-inputs-5 {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+

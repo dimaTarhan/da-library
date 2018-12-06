@@ -1,6 +1,5 @@
 
 .da-inputs_style{
-  
   margin-right: 100px;
   margin-bottom: 50px;
   margin-left:60px;
@@ -13,40 +12,13 @@
   margin-bottom:60px;
   margin-left: 40px;
 }
-.da-inputs_floating::placeholder{
-  color: #2567c2;
-  font-size: 16px;
-}
-.da-inputs_floating:hover{
-  &::placeholder{
-  animation: slideUp 3s infinite ease;
-  }
-}
+
+
 .da-inputs_text-area,.da-inputs-3_lab{
   margin-left:60px;
 }
 .da-inputs_disable {
   margin-top:30px;
-}
-@keyframes slideUp {
-  0% {
-      transform: translateY(100%) scale(0.875);
-  }
-  50%{
-      transform: translateY(-8%) scale(0.875);
-  }
-  65%{
-      transform: translateY(4%) scale(0.875);
-  }
-  80%{
-      transform: translateY(-4%) scale(0.875);
-  }
-  95%{
-      transform: translateY(2%) scale(0.875);
-  }           
-  100% {
-      transform: translateY(0%) scale(0.875);
-  }   
 }
 
 

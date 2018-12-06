@@ -1,37 +1,11 @@
-.da-fab-speed-dial{
-	width: 56px;
-  height: 56px;
-  background-color: #f54a29;
-	border:0;
-	border-radius: 35px;
+.white-m{
+	margin:15px;
+	color:#ffffff;
 }
-.float{
-	position: relative;
-	bottom:40px;
-	right:40px;
-	text-align:center;
-	box-shadow: 2px 2px 3px #999;
-	z-index:1000;
+.grey-m{
+	margin:8px;
+	color:#646464;
 }
-.material-icons{
-	margin-bottom:0px;
-}
-ul{
-	position: absolute;;
-	right:40px;
-	padding-bottom:20px;
-	bottom:80px;
-}
-ul li{
-	border-radius: 35px;
-	width: 40px;
-	height: 40px;
-	background-color: #fafafa;
-	border:0;
-}
-.da-fab-speed-dial + ul{
-  visibility: hidden;
-}
-.da-fab-speed-dial:hover + ul{
-  visibility: visible;
-}
+
+
+
