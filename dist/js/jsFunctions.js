@@ -2,6 +2,7 @@ window.onload = function () {
     var linkItems = document.getElementsByClassName('da-sidebar__link');
     var elementsWraper = document.getElementsByClassName('da-sidebar__nav');
     elementsWraper[0].addEventListener("click", function () {
+        alert(name);
         var target = event.target;
         if (!target.classList.contains('da-sidebar__link')) return;
         var name = target.dataset.name;
