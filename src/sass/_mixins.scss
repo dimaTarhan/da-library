@@ -16,3 +16,15 @@
 @mixin shadow-1(){
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
+
+@mixin progress-circular($w-h, $b){
+  box-sizing: border-box;
+  width: $w-h+px;
+  height: $w-h+px;
+  border-radius: 50%;
+  border: $b+px solid transparent;
+  border-left-color: #0070ce;
+  border-bottom-color: #0070ce;
+  border-right-color: #0070ce;
+  animation: prog-circular 1s linear infinite;
+}

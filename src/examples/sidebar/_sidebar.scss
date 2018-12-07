@@ -10,13 +10,11 @@
 .da-sidebar__title{
   text-transform: uppercase;
   text-align: center;
-  color: grey;
   font-weight: bold;
   font-size: 24px;
   padding-bottom: 10px;
   border-bottom: 2px solid lightgray;
 }
-
 
 .da-sidebar__nav{
   display: flex;
@@ -40,5 +38,5 @@
 
 .da-sidebar__active{
   opacity: 1;
-  color: orangered;
+  color: $main-color;
 }
