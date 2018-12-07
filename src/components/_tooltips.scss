@@ -1,0 +1,90 @@
+
+.tooltip{
+  visibility: hidden;
+  opacity: 0;
+  width: $tool-width;
+  text-align: center;
+  font-size: 10px;
+  color: $color-white;
+  padding: 10px 15px;
+  background: $color-grey;
+  position: absolute;
+  transition: opacity 0.3s;
+  display: inline-block;
+  overflow-wrap: break-word;
+
+  &_left{
+    top:20%;
+    right: 110%;
+  }
+  &_top{
+    bottom: 110%;
+    left: 30%;
+    margin-left: - $tool-width / 2;
+  }
+  &_bottom{
+    top: 110%;
+    left: 15%;
+    margin-left: - $tool-width / 2;
+  }
+  &_right {
+    top: 25%;
+    left: 110%;
+  }
+}
+.da-tooltips{
+  display: inline-block;
+  position: relative;
+  margin-right: 100px;
+  &:hover{
+    .tooltip {
+      visibility: visible;
+      opacity: 1;
+    }
+	}
+}
+
+
+.da-tooltips-wrapper{
+	display: flex;
+}
+.da-tooltips{
+	&__arrow-icon{
+		width: 56px;
+		height: 56px;
+		background-color: #e91e63;
+		border:0;
+		border-radius: 35px;
+		
+	}
+	&__create-icon{
+		width: 56px;
+		height: 56px;
+		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+		background-color: #03a9f4;
+		border:0;
+		border-radius: 35px;
+		
+	}
+	&__add-icon{
+		width: 56px;
+		height: 56px;
+		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+		background-color: #fafafa;
+		border:0;
+		border-radius: 35px;
+	}
+	
+	
+&__done{
+	width: 56px;
+	height: 56px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+	background-color: #259b24;
+	border:0;
+	border-radius: 35px;
+
+	}
+}
+
+
