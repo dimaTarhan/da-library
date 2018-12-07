@@ -11,6 +11,6 @@ window.onload = function () {
         }
         target.classList.add('da-sidebar__active');
         alert(name);
-        elem.scrollIntoView();
+        //elem.scrollIntoView();
     });
 };
