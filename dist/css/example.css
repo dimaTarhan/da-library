@@ -1,6 +1,6 @@
 .da-header {
   width: 100%;
-  background-color: lightblue;
+  background-color: #f0f0f0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,7 +22,7 @@
 .da-header__title {
   padding-left: 20px;
   font-family: 'Oleo Script Swash Caps', cursive;
-  color: darkblue;
+  color: #e91e63;
   font-size: 42px;
 }
 
@@ -32,7 +32,7 @@
   font-weight: bold;
   text-transform: uppercase;
   font-size: 30px;
-  color: white;
+  color: #e91e63;
 }
 
 .da-sidebar {
@@ -112,39 +112,77 @@ h3 {
 }
 
 .da-fab-speed-dial {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  bottom: 0;
+  position: relative;
+  right: 0px;
 }
 
-.da-fab-speed-dial__discription {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  color: #333333;
-  margin-bottom: 20px;
-  font-weight: bold;
+.buttons {
+  -webkit-box-shadow: 0px 5px 11px -2px rgba(0, 0, 0, 0.18), 0px 4px 12px -7px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 5px 11px -2px rgba(0, 0, 0, 0.18), 0px 4px 12px -7px rgba(0, 0, 0, 0.15);
+  border-radius: 35px;
+  width: 40px;
+  height: 40px;
+  background-color: #fafafa;
+  border: 0;
+  display: block;
+  margin: 20px auto 0;
+  position: relative;
+  -webkit-transition: all .1s ease-out;
+  transition: all .1s ease-out;
 }
 
-.da-fab-speed-dial__clear-icon {
-  margin: 20px;
+.buttons:active,
+.buttons:focus,
+.buttons:hover {
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+          box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
 }
 
-.da-fab-speed-dial__create-icon {
-  margin: 20px;
+.buttons:not(:last-child) {
+  width: 40px;
+  height: 40px;
+  margin: 20px auto 0;
+  opacity: 0;
+  -webkit-transform: translateY(50px);
+  transform: translateY(50px);
 }
 
-.da-fab-speed-dial__favorite-icon {
-  margin: 20px;
+.da-fab-speed-dial:hover
+.buttons:not(:last-child) {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  margin: 15px auto 0;
 }
 
-.da-fab-speed-dial__menu-icon {
-  margin: 10px 0 0px 20px;
+.buttons:nth-last-child(1) {
+  -webkit-transition-delay: 25ms;
+  transition-delay: 25ms;
+  width: 56px;
+  height: 56px;
+  background-color: #f54a29;
+  border: 0;
+  border-radius: 35px;
+  background-size: contain;
 }
 
-.fab-speed-dial-wraper {
-  margin-top: 3%;
-  margin-left: 20%;
-  margin-bottom: 60px;
+.buttons:not(:last-child):nth-last-child(2) {
+  -webkit-transition-delay: 50ms;
+  transition-delay: 20ms;
+  background-size: contain;
+}
+
+.buttons:not(:last-child):nth-last-child(3) {
+  -webkit-transition-delay: 75ms;
+  transition-delay: 40ms;
+  background-size: contain;
+}
+
+.buttons:not(:last-child):nth-last-child(4) {
+  -webkit-transition-delay: 100ms;
+  transition-delay: 60ms;
+  background-size: contain;
 }
 
 .da-floating-button {
@@ -290,11 +328,11 @@ h3 {
   margin-left: 40px;
 }
 
-.da-inputs-5_lab, .da-inputs-6_lab, .da-inputs-3_lab {
+.da-inputs_text-area, .da-inputs-3_lab {
   margin-left: 60px;
 }
 
-.da-inputs-4 {
+.da-inputs_disable {
   margin-top: 30px;
 }
 
@@ -359,6 +397,82 @@ h3 {
   margin-right: 0;
 }
 
+.da-tooltips-wrapper {
+  margin-bottom: 80px;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+
+.da-inset-dividers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 60px;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+
+.da-inset-dividers__discription {
+  margin-top: 20px;
+}
+
+.da-inset-dividers__but {
+  margin-top: 20px;
+}
+
+.da-slidecontainer__slider, .da-slidecontainer__header {
+  margin-right: 100px;
+  margin-bottom: 50px;
+  margin-left: 60px;
+}
+
+.da-slidecontainer {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 60px;
+  margin-left: 80px;
+}
+
+.da-slidecontainer__header {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.card-style {
+  width: 450px;
+  margin-top: 50px;
+}
+
+.card-style__button {
+  padding: 0 10px 0 10px;
+  margin-top: 5px;
+}
+
+.card-style__header {
+  height: 180px;
+}
+
+.card-style__button_indent {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.card-style__image-title {
+  color: white;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -404,7 +518,7 @@ body {
   height: auto;
   margin-top: 20px;
   padding-right: 60px;
-  border: 2px solid lightblue;
+  border: 2px solid #f0f0f0;
   border-radius: 10px;
   background-color: #F0F0F0;
   margin-bottom: 60px;
