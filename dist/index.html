@@ -16,9 +16,25 @@
     <div class="siteContent">
       <div class="da-sidebar">
         <div class="da-sidebar__title"><span>elements</span></div>
-        <div class="da-sidebar__nav"><a class="da-sidebar__link" href="#buttons">Buttons</a><a class="da-sidebar__link" href="#cards">Cards</a><a class="da-sidebar__link" href="#checkbox">Checkbox</a><a class="da-sidebar__link" href="#tables">Data Tables</a><a class="da-sidebar__link" href="#dialog">Dialog</a><a class="da-sidebar__link" href="#fab-speed-dial">FAB Speed Dial</a><a class="da-sidebar__link" href="#floating-button">Floating Action Button</a><a class="da-sidebar__link" href="#icon-button">Icon Button</a><a class="da-sidebar__link" href="#inputs">Inputs</a><a class="da-sidebar__link" href="#inset-dividers">Inset Dividers</a><a class="da-sidebar__link" href="javascript:void(0)">Lists</a><a class="da-sidebar__link" href="#menu-items">Menus&Menu Items</a><a class="da-sidebar__link" href="#dropdown">Menu Dropdown</a><a class="da-sidebar__link" href="#progress_circular">Progress Circular</a><a class="da-sidebar__link" href="#progress_linear">Progress Linear</a><a class="da-sidebar__link" href="#radio">Radio Button</a><a class="da-sidebar__link" href="#shadow">Shadow</a><a class="da-sidebar__link" href="#slider">Slider</a><a class="da-sidebar__link" href="#switch">Switch (Toggle)</a><a class="da-sidebar__link" href="#tabs">Tabs</a><a class="da-sidebar__link" href="#toast">Toast</a><a class="da-sidebar__link" href="#toolbar">Toolbar</a><a class="da-sidebar__link" href="#tooltips">Tooltips</a></div>
+        <div class="da-sidebar__nav"><a class="da-sidebar__link" href="#buttons">Buttons</a><a class="da-sidebar__link" href="#cards">Cards</a><a class="da-sidebar__link" href="#checkbox">Checkbox</a><a class="da-sidebar__link" href="javascript:void(0)">Data Tables</a><a class="da-sidebar__link" href="javascript:void(0)">Dialog</a><a class="da-sidebar__link" href="javascript:void(0)">FAB Speed Dial</a><a class="da-sidebar__link" href="javascript:void(0)">Floating Action Button</a><a class="da-sidebar__link" href="javascript:void(0)">Icon Button</a><a class="da-sidebar__link" href="javascript:void(0)">Inputs</a><a class="da-sidebar__link" href="javascript:void(0)">Inset Dividers</a><a class="da-sidebar__link" href="javascript:void(0)">Lists</a><a class="da-sidebar__link" href="javascript:void(0)">Menus&Menu Items</a><a class="da-sidebar__link" href="javascript:void(0)">Menu Dropdown</a><a class="da-sidebar__link" href="#progress_circular">Progress Circular</a><a class="da-sidebar__link" href="#progress_linear">Progress Linear</a><a class="da-sidebar__link" href="#radio">Radio Button</a><a class="da-sidebar__link" href="#shadow">Shadow</a><a class="da-sidebar__link" href="javascript:void(0)">Slider</a><a class="da-sidebar__link" href="#switch">Switch (Toggle)</a><a class="da-sidebar__link" href="#tabs">Tabs</a><a class="da-sidebar__link" href="javascript:void(0)">Toast</a><a class="da-sidebar__link" href="#toolbar">Toolbar</a><a class="da-sidebar__link" href="javascript:void(0)">Tooltips</a></div>
       </div>
-      
+      <div class="siteContent_da-elements"><span class="siteContent_elementTitle" id="shadow">Shadow</span>
+        <div class="shadow-wraper">
+          <div class="da-shadow-1 shadow_style"></div>
+          <div class="da-shadow-2 shadow_style"></div>
+          <div class="da-shadow-3 shadow_style"></div>
+          <div class="da-shadow-4 shadow_style"></div>
+          <div class="da-shadow-5 shadow_style"></div>
+        </div><span class="pretty-descrip">
+          You can use this style element simply by adding a class to the appropriate block,for example:</span>
+        <xmp class="prettyprint pretty-code">
+          <div class="shadow-wraper">
+            <div class="da-shadow-1 shadow_style"></div>
+            <div class="da-shadow-2 shadow_style"></div>
+            <div class="da-shadow-3 shadow_style"></div>
+            <div class="da-shadow-4 shadow_style"></div>
+            <div class="da-shadow-5 shadow_style"></div>
+          </div>
         </xmp><span class="siteContent_elementTitle" id="buttons">Buttons</span>
         <h3>Flat Buttons</h3>
         <div class="button-wraper">
@@ -148,7 +164,6 @@
                 <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
               </svg></span><span class="da-checkbox__title">Clear search history</span></label><span class="da-checkbox-desc">Remove all the searches you have ever performed</span>
         </div><span class="pretty-descrip">You can see the example code below:</span>
-
         <xmp class="prettyprint pretty-code">
           <div class="checkbox-style__block">
             <input class="da-checkbox" id="notific" type="checkbox" name="notifications">
@@ -166,6 +181,359 @@
                 <svg width="12px" height="10px" viewBox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
                 </svg></span><span class="da-checkbox__title">Clear search history</span></label><span class="da-checkbox-desc">Remove all the searches you have ever performed</span>
+          </div>
+        </xmp><span class="siteContent_elementTitle" id="radio">Radio Button</span><span class="pretty-descrip">
+          Radio buttons allow the user to select one option from a set. Use radio buttonswhen the user needs to see all available options. If available options can be collapsed,
+          consider using a dropdown menu because it uses less space. Radio buttons should have the most
+          commonly used option selected by default.</span>
+        <div class="radio-style__block"><span class="da-radio-desc">Keep Wi-Fi on during sleep</span>
+          <input class="da-radio" id="always" type="radio" name="keep">
+          <label class="da-radio-label" for="always"><span class="da-radio__body"><span class="da-radio__body-center"></span></span><span class="da-radio__title">Always</span></label>
+          <input class="da-radio" id="plug" type="radio" name="keep">
+          <label class="da-radio-label" for="plug"><span class="da-radio__body"><span class="da-radio__body-center"></span></span><span class="da-radio__title">Only when plugged in</span></label>
+          <input class="da-radio" id="never" type="radio" name="keep">
+          <label class="da-radio-label" for="never"><span class="da-radio__body"><span class="da-radio__body-center"></span></span><span class="da-radio__title">Never</span></label>
+        </div><span class="pretty-descrip">The code for the buttons above looks like this:</span>
+        <xmp class="prettyprint pretty-code">
+          <div class="radio-style__block"><span class="da-radio-desc">Keep Wi-Fi on during sleep</span>
+            <input class="da-radio" id="always" type="radio" name="keep">
+            <label class="da-radio-label" for="always"><span class="da-radio__body"><span class="da-radio__body-center"></span></span><span class="da-radio__title">Always</span></label>
+            <input class="da-radio" id="plug" type="radio" name="keep">
+            <label class="da-radio-label" for="plug"><span class="da-radio__body"><span class="da-radio__body-center"></span></span><span class="da-radio__title">Only when plugged in</span></label>
+            <input class="da-radio" id="never" type="radio" name="keep">
+            <label class="da-radio-label" for="never"><span class="da-radio__body"><span class="da-radio__body-center"></span></span><span class="da-radio__title">Never</span></label>
+          </div>
+        </xmp><span class="siteContent_elementTitle" id="switch">Switch(Toggle)</span><span class="pretty-descrip">
+          Switches toggle the state of a single setting on or off. They are the preferredway to adjust settings on mobile. The option that the switch controls, as well as the state
+          it’s in, should be made clear from the corresponding inline label.</span>
+        <div class="switch-style__block">
+          <input class="da-switch" id="wifi" type="checkbox">
+          <label class="da-switch-label" for="wifi"><span class="da-switch__slider da-switch__round"></span>Wi-Fi</label>
+          <input class="da-switch" id="bluetoothe" type="checkbox">
+          <label class="da-switch-label" for="bluetoothe"><span class="da-switch__slider da-switch__round"></span>Bluetooth</label>
+          <input class="da-switch" id="airplane" type="checkbox">
+          <label class="da-switch-label" for="airplane"><span class="da-switch__slider da-switch__round"></span>Airplane Mode</label>
+        </div><span class="pretty-descrip">Example of using elements:</span>
+        <xmp class="prettyprint pretty-code">
+          <div class="switch-style__block">
+            <input class="da-switch" id="wifi" type="checkbox">
+            <label class="da-switch-label" for="wifi"><span class="da-switch__slider da-switch__round"></span>Wi-Fi</label>
+            <input class="da-switch" id="bluetoothe" type="checkbox">
+            <label class="da-switch-label" for="bluetoothe"><span class="da-switch__slider da-switch__round"></span>Bluetooth</label>
+            <input class="da-switch" id="airplane" type="checkbox">
+            <label class="da-switch-label" for="airplane"><span class="da-switch__slider da-switch__round"></span>Airplane Mode</label>
+          </div>
+        </xmp><span class="siteContent_elementTitle" id="progress_circular">Progress Circular</span><span class="pretty-descrip">
+          Progress indicators inform users about the status of ongoing processes, such asloading an app, submitting a form, or saving updates. They communicate an app’s state and
+          indicate available actions, such as whether users can navigate away from the current screen.</span>
+        <div class="progress-circular-style__block">
+          <div class="progress-circular-1"></div>
+          <div class="progress-circular-2"></div>
+          <div class="progress-circular-3"></div>
+          <div class="progress-circular-4"></div>
+          <div class="progress-circular-5"></div>
+        </div><span class="pretty-descrip">Circular progress support both determinate and indeterminate processes.</span>
+        <xmp class="prettyprint pretty-code">
+          <div class="progress-circular-style__block">
+            <div class="progress-circular-1"></div>
+            <div class="progress-circular-2"></div>
+            <div class="progress-circular-3"></div>
+            <div class="progress-circular-4"></div>
+            <div class="progress-circular-5"></div>
+          </div>
+        </xmp><span class="siteContent_elementTitle" id="progress_linear">Progress Linear</span><span class="pretty-descrip">
+          Linear progress indicators display progress by animating an indicator along thelength of a fixed, visible track. The behavior of the indicator is dependent on whether the
+          progress of a process is known.</span>
+        <div class="progress-linear-style__block">
+          <div class="progress-linear-1"></div>
+          <div class="progress-linear-2"></div>
+          <div class="progress-linear-3"></div>
+          <div class="progress-linear-4"></div>
+          <div class="progress-linear-5"></div>
+          <div class="progress-linear-6"></div>
+        </div><span class="pretty-descrip">
+          Determinate operations display the indicator increasing in width from 0 to 100% ofthe track, in sync with the process’s progress. An example is shown below:</span>
+        <xmp class="prettyprint pretty-code">
+          <div class="progress-linear-style__block">
+            <div class="progress-linear-1"></div>
+            <div class="progress-linear-2"></div>
+            <div class="progress-linear-3"></div>
+            <div class="progress-linear-4"></div>
+            <div class="progress-linear-5"></div>
+            <div class="progress-linear-6"></div>
+          </div>
+        </xmp><span class="siteContent_elementTitle" id="tabs">Tabs</span><span class="pretty-descrip">
+          Tabs organize and allow navigation between groups of content that are related andat the same level of hierarchy.</span>
+        <div class="tabs-style__block"><span class="tabs-style__title">A. No ink effect and no sliding bar</span>
+          <div class="da-tabs-default">
+            <div class="da-tabs-default__link da-tabs-default__selected">item one</div>
+            <div class="da-tabs-default__link">item two</div>
+            <div class="da-tabs-default__link">item three</div>
+          </div><span class="tabs-style__title">B. The bar slides to the selected tab</span>
+          <div class="da-tabs-slider">
+            <div class="da-tabs-slider__link da-tabs-slider__selected">item one</div>
+            <div class="da-tabs-slider__link">item two</div>
+            <div class="da-tabs-slider__link">item three</div>
+          </div><span class="tabs-style__title">C. Inky Tabs</span>
+          <div class="da-tabs-inky">
+            <div class="da-tabs-inky__link da-tabs-inky__selected">item one
+              <div class="rippleJS"></div>
+            </div>
+            <div class="da-tabs-inky__link">item two
+              <div class="rippleJS"></div>
+            </div>
+            <div class="da-tabs-inky__link">item three
+              <div class="rippleJS"></div>
+            </div>
+          </div>
+          <div class="da-tabs-inky__white tabs-style__indent">
+            <div class="da-tabs-inky__white-link da-tabs-inky__white-selected">item one
+              <div class="rippleJS"></div>
+            </div>
+            <div class="da-tabs-inky__white-link">item two
+              <div class="rippleJS"></div>
+            </div>
+            <div class="da-tabs-inky__white-link">item three
+              <div class="rippleJS"></div>
+            </div>
+          </div>
+          <div class="da-tabs-toolbar tabs-style__indent">
+            <div class="da-tabs-toolbar__header">
+              <div class="da-tabs-toolbar__image-container" id="da-tabs-toolbar"><img src="images/dehaze.png" alt="" width="18px" height="18px">
+                <div class="rippleJS"></div>
+              </div><span class="da-tabs-toolbar__header-title">Title</span>
+              <div class="da-tabs-toolbar__image-container"><img src="images/search.png" alt="" width="18px" height="18px">
+                <div class="rippleJS"></div>
+              </div>
+              <div class="da-tabs-toolbar__image-container"><img src="images/more.png" alt="" width="18px" height="18px">
+                <div class="rippleJS"></div>
+              </div>
+            </div>
+            <div class="da-tabs-toolbar__nav">
+              <div class="da-tabs-inky__link da-tabs-inky__selected">item one
+                <div class="rippleJS"></div>
+              </div>
+              <div class="da-tabs-inky__link">item two
+                <div class="rippleJS"></div>
+              </div>
+              <div class="da-tabs-inky__link">item three
+                <div class="rippleJS"></div>
+              </div>
+            </div>
+          </div>
+          <div class="da-tabs-custom tabs-style__indent">
+            <div class="da-tabs-custom__nav">
+              <div class="da-tabs-custom__link da-tabs-inky__selected">item one
+                <div class="rippleJS"></div>
+              </div>
+              <div class="da-tabs-custom__link">item two
+                <div class="rippleJS"></div>
+              </div>
+            </div>
+            <div class="da-tabs-toolbar__image-container"><img src="images/search.png" alt="" width="18px" height="18px">
+              <div class="rippleJS"></div>
+            </div>
+          </div>
+        </div><span class="pretty-descrip">The example code is shown below. For this elements used library rippleJS and native JavaScript.</span>
+        <xmp class="prettyprint pretty-code">
+          <div class="tabs-style__block"><span class="tabs-style__title">A. No ink effect and no sliding bar</span>
+            <div class="da-tabs-default">
+              <div class="da-tabs-default__link da-tabs-default__selected">item one</div>
+              <div class="da-tabs-default__link">item two</div>
+              <div class="da-tabs-default__link">item three</div>
+            </div><span class="tabs-style__title">B. The bar slides to the selected tab</span>
+            <div class="da-tabs-slider">
+              <div class="da-tabs-slider__link da-tabs-slider__selected">item one</div>
+              <div class="da-tabs-slider__link">item two</div>
+              <div class="da-tabs-slider__link">item three</div>
+            </div><span class="tabs-style__title">C. Inky Tabs</span>
+            <div class="da-tabs-inky">
+              <div class="da-tabs-inky__link da-tabs-inky__selected">item one
+                <div class="rippleJS"></div>
+              </div>
+              <div class="da-tabs-inky__link">item two
+                <div class="rippleJS"></div>
+              </div>
+              <div class="da-tabs-inky__link">item three
+                <div class="rippleJS"></div>
+              </div>
+            </div>
+            <div class="da-tabs-inky__white tabs-style__indent">
+              <div class="da-tabs-inky__white-link da-tabs-inky__white-selected">item one
+                <div class="rippleJS"></div>
+              </div>
+              <div class="da-tabs-inky__white-link">item two
+                <div class="rippleJS"></div>
+              </div>
+              <div class="da-tabs-inky__white-link">item three
+                <div class="rippleJS"></div>
+              </div>
+            </div>
+            <div class="da-tabs-toolbar tabs-style__indent">
+              <div class="da-tabs-toolbar__header">
+                <div class="da-tabs-toolbar__image-container" id="da-tabs-toolbar"><img src="images/dehaze.png" alt="" width="18px" height="18px">
+                  <div class="rippleJS"></div>
+                </div><span class="da-tabs-toolbar__header-title">Title</span>
+                <div class="da-tabs-toolbar__image-container"><img src="images/search.png" alt="" width="18px" height="18px">
+                  <div class="rippleJS"></div>
+                </div>
+                <div class="da-tabs-toolbar__image-container"><img src="images/more.png" alt="" width="18px" height="18px">
+                  <div class="rippleJS"></div>
+                </div>
+              </div>
+              <div class="da-tabs-toolbar__nav">
+                <div class="da-tabs-inky__link da-tabs-inky__selected">item one
+                  <div class="rippleJS"></div>
+                </div>
+                <div class="da-tabs-inky__link">item two
+                  <div class="rippleJS"></div>
+                </div>
+                <div class="da-tabs-inky__link">item three
+                  <div class="rippleJS"></div>
+                </div>
+              </div>
+            </div>
+            <div class="da-tabs-custom tabs-style__indent">
+              <div class="da-tabs-custom__nav">
+                <div class="da-tabs-custom__link da-tabs-inky__selected">item one
+                  <div class="rippleJS"></div>
+                </div>
+                <div class="da-tabs-custom__link">item two
+                  <div class="rippleJS"></div>
+                </div>
+              </div>
+              <div class="da-tabs-toolbar__image-container"><img src="images/search.png" alt="" width="18px" height="18px">
+                <div class="rippleJS"></div>
+              </div>
+            </div>
+          </div>
+        </xmp><span class="siteContent_elementTitle" id="toolbar">Toolbar</span><span class="pretty-descrip">
+          In computer interface design, a toolbar is a graphical control element onwhich on-screen buttons, icons, menus, or other input or output elements are placed. Toolbars
+          are seen in many types of software such as office suites, graphics editors and web browsers.</span>
+        <div class="toolbar-style__block">
+          <div class="da-toolbar-default toolbar-style__default-color">
+            <div class="da-toolbar__img-container"><img src="images/dehaze.png" alt="" width="18px" height="18px">
+              <div class="rippleJS"></div>
+            </div><span class="da-toolbar__title">Toolbar</span>
+            <div class="da-toolbar__img-container"><img src="images/refresh.png" alt="" width="18px" height="18px">
+              <div class="rippleJS"></div>
+            </div>
+            <div class="da-toolbar__img-container"><img src="images/more.png" alt="" width="18px" height="18px">
+              <div class="rippleJS"></div>
+            </div>
+          </div>
+          <div class="da-toolbar-tall__top toolbar-style__tallTop-color">
+            <div class="da-toolbar-default">
+              <div class="da-toolbar__img-container"><img src="images/dehaze.png" alt="" width="18px" height="18px">
+                <div class="rippleJS"></div>
+              </div><span class="da-toolbar__title">Toolbar: toll</span>
+              <div class="da-toolbar__img-container"><img src="images/refresh.png" alt="" width="18px" height="18px">
+                <div class="rippleJS"></div>
+              </div>
+              <div class="da-toolbar__img-container"><img src="images/more.png" alt="" width="18px" height="18px">
+                <div class="rippleJS"></div>
+              </div>
+            </div>
+          </div>
+          <div class="da-toolbar-tall__bottom toolbar-style__tallBottom-color">
+            <div class="da-toolbar-default">
+              <div class="da-toolbar__img-container"><img src="images/dehaze.png" alt="" width="18px" height="18px">
+                <div class="rippleJS"></div>
+              </div><span class="da-toolbar__title">Toolbar: tall with elements aligned to the bottom</span>
+              <div class="da-toolbar__img-container"><img src="images/refresh.png" alt="" width="18px" height="18px">
+                <div class="rippleJS"></div>
+              </div>
+              <div class="da-toolbar__img-container"><img src="images/more.png" alt="" width="18px" height="18px">
+                <div class="rippleJS"></div>
+              </div>
+            </div>
+          </div>
+          <div class="da-toolbar-medium toolbar-style__medium-color">
+            <div class="da-toolbar__img-container"><img src="images/dehaze.png" alt="" width="18px" height="18px">
+              <div class="rippleJS"></div>
+            </div><span class="da-toolbar__title">Toolbar: medium-tall with labels aligned to the bottom</span>
+            <div class="da-toolbar__img-container"><img src="images/refresh.png" alt="" width="18px" height="18px">
+              <div class="rippleJS"></div>
+            </div>
+            <div class="da-toolbar__img-container"><img src="images/more.png" alt="" width="18px" height="18px">
+              <div class="rippleJS"></div>
+            </div>
+          </div>
+          <div class="da-toolbar-tallMedium toolbar-style__tallMedium-color">
+            <div class="da-toolbar__img-container"><img src="images/dehaze.png" alt="" width="18px" height="18px">
+              <div class="rippleJS"></div>
+            </div>
+            <div class="da-toolbar-tallMedium__content"><span>Toolbar: tall with labels aligned to the middle</span><span>Toolbar elements aligned to the bottom</span></div>
+            <div class="da-toolbar__img-container"><img src="images/refresh.png" alt="" width="18px" height="18px">
+              <div class="rippleJS"></div>
+            </div>
+            <div class="da-toolbar__img-container"><img src="images/more.png" alt="" width="18px" height="18px">
+              <div class="rippleJS"></div>
+            </div>
+          </div>
+        </div><span class="pretty-descrip">Toolbar can transform into a contextual action bar or used as a navbar.</span>
+        <xmp class="prettyprint pretty-code">
+          <div class="toolbar-style__block">
+            <div class="da-toolbar-default toolbar-style__default-color">
+              <div class="da-toolbar__img-container"><img src="images/dehaze.png" alt="" width="18px" height="18px">
+                <div class="rippleJS"></div>
+              </div><span class="da-toolbar__title">Toolbar</span>
+              <div class="da-toolbar__img-container"><img src="images/refresh.png" alt="" width="18px" height="18px">
+                <div class="rippleJS"></div>
+              </div>
+              <div class="da-toolbar__img-container"><img src="images/more.png" alt="" width="18px" height="18px">
+                <div class="rippleJS"></div>
+              </div>
+            </div>
+            <div class="da-toolbar-tall__top toolbar-style__tallTop-color">
+              <div class="da-toolbar-default">
+                <div class="da-toolbar__img-container"><img src="images/dehaze.png" alt="" width="18px" height="18px">
+                  <div class="rippleJS"></div>
+                </div><span class="da-toolbar__title">Toolbar: toll</span>
+                <div class="da-toolbar__img-container"><img src="images/refresh.png" alt="" width="18px" height="18px">
+                  <div class="rippleJS"></div>
+                </div>
+                <div class="da-toolbar__img-container"><img src="images/more.png" alt="" width="18px" height="18px">
+                  <div class="rippleJS"></div>
+                </div>
+              </div>
+            </div>
+            <div class="da-toolbar-tall__bottom toolbar-style__tallBottom-color">
+              <div class="da-toolbar-default">
+                <div class="da-toolbar__img-container"><img src="images/dehaze.png" alt="" width="18px" height="18px">
+                  <div class="rippleJS"></div>
+                </div><span class="da-toolbar__title">Toolbar: tall with elements aligned to the bottom</span>
+                <div class="da-toolbar__img-container"><img src="images/refresh.png" alt="" width="18px" height="18px">
+                  <div class="rippleJS"></div>
+                </div>
+                <div class="da-toolbar__img-container"><img src="images/more.png" alt="" width="18px" height="18px">
+                  <div class="rippleJS"></div>
+                </div>
+              </div>
+            </div>
+            <div class="da-toolbar-medium toolbar-style__medium-color">
+              <div class="da-toolbar__img-container"><img src="images/dehaze.png" alt="" width="18px" height="18px">
+                <div class="rippleJS"></div>
+              </div><span class="da-toolbar__title">Toolbar: medium-tall with labels aligned to the bottom</span>
+              <div class="da-toolbar__img-container"><img src="images/refresh.png" alt="" width="18px" height="18px">
+                <div class="rippleJS"></div>
+              </div>
+              <div class="da-toolbar__img-container"><img src="images/more.png" alt="" width="18px" height="18px">
+                <div class="rippleJS"></div>
+              </div>
+            </div>
+            <div class="da-toolbar-tallMedium toolbar-style__tallMedium-color">
+              <div class="da-toolbar__img-container"><img src="images/dehaze.png" alt="" width="18px" height="18px">
+                <div class="rippleJS"></div>
+              </div>
+              <div class="da-toolbar-tallMedium__content"><span>Toolbar: tall with labels aligned to the middle</span><span>Toolbar elements aligned to the bottom</span></div>
+              <div class="da-toolbar__img-container"><img src="images/refresh.png" alt="" width="18px" height="18px">
+                <div class="rippleJS"></div>
+              </div>
+              <div class="da-toolbar__img-container"><img src="images/more.png" alt="" width="18px" height="18px">
+                <div class="rippleJS"></div>
+              </div>
+            </div>
           </div>
         </xmp><span class="siteContent_elementTitle" id="tables">Data Tables</span><span class="pretty-descrip">
           Data tables display information in a way that’s easy to scan, so that users canlook for patterns and insights. They can be embedded in primary content, such as cards.
@@ -378,545 +746,6 @@
                   <option>100</option>
                 </select><span>1-10 of 100</span><img src="images/arrow_left.png" alt=""><img src="images/arrow_right.png" alt="">
               </div>
-            </div>
-          </div>
-          
-        </xmp><span class="siteContent_elementTitle" id="dialog">Dialog</span>
-        <div class="da-dialog card-style">
-          <div class="da-dialog__title">Dialog</div>
-          <div class="da-card__text">
-            <p>
-              Lorem ipsum dolor sit amet, doming noster at quo, nostrud lucilius rationibus ea duo. Vim no mucius dolores. No bonorum voluptatum vis, has iudicabit consectetuer ne. Nullam sensibus vim id, et quo graeci perpetua.</p>
-            <p>
-              Id qui scripta laboramus dissentiet, verterem partiendo vim atStet dissentiet ut mei. Iriure facilis eloquentiam pro eu, nec an esse inciderint. In meliore abhorreant sea. Eros nostro ocurreret at nec. Cu per regione persecuti.</p>
-            <p>
-              Lorem ipsum dolor sit amet, doming noster at quo, nostrud lucilius rationibus ea duo. Vim no mucius dolores. No bonorum voluptatum vis, has iudicabit consectetuer ne. Nullam sensibus vim id, et quo graeci perpetua.</p>
-          </div>
-          <div class="da-card__button">
-            <button class="da-button card-style__button">More info...</button>
-            <button class="da-button card-style__button card-style__button_indent">Decline</button>
-            <button class="da-button da-flat-button_colored card-style__button">Accept</button>
-          </div>
-        </div>
-        <span class="pretty-descrip">
-          Dialog are surfaces that display content and actions on a single topic.They should be easy to scan for relevant and actionable information. Elements, like text
-          and buttons, should be placed on them in a way that clearly indicates hierarchy. 
-        </pan>
-        <xmp class="prettyprint pretty-code">
-          <div class="da-dialog card-style">
-            <div class="da-dialog__title">Dialog</div>
-            <div class="da-card__text">
-              <p>
-                Lorem ipsum dolor sit amet, doming noster at quo, nostrud lucilius rationibus ea duo. Vim no mucius dolores. No bonorum voluptatum vis, has iudicabit consectetuer ne. Nullam sensibus vim id, et quo graeci perpetua.</p>
-              <p>
-                Id qui scripta laboramus dissentiet, verterem partiendo vim atStet dissentiet ut mei. Iriure facilis eloquentiam pro eu, nec an esse inciderint. In meliore abhorreant sea. Eros nostro ocurreret at nec. Cu per regione persecuti.</p>
-              <p>
-                Lorem ipsum dolor sit amet, doming noster at quo, nostrud lucilius rationibus ea duo. Vim no mucius dolores. No bonorum voluptatum vis, has iudicabit consectetuer ne. Nullam sensibus vim id, et quo graeci perpetua.</p>
-            </div>
-            <div class="da-card__button">
-              <button class="da-button card-style__button">More info...</button>
-              <button class="da-button card-style__button card-style__button_indent">Decline</button>
-              <button class="da-button da-flat-button_colored card-style__button">Accept</button>
-            </div>
-          </div>
-          
-        </xmp><span class="siteContent_elementTitle" id="fab-speed-dial">FAB Speed Dial</span>
-        <nav class="da-fab-speed-dial"><a class="buttons" href="#">
-            <div class="material-icons grey-m">clear</div></a><a class="buttons" href="#">
-            <div class="material-icons grey-m">favorite</div></a><a class="buttons" href="#">
-            <div class="material-icons grey-m">create</div></a><a class="buttons" href="#">
-            <div class="material-icons white-m">menu</div></a></nav><span class="pretty-descrip">
-          FAB Speed Dial are typically used for less-pronounced actions. They contain actions that are primary to your app.The last example of this demo show how to use buttons:</span>
-
-        
-
-        </xmp><span class="siteContent_elementTitle" id="progress_circular">Progress Circular</span><span class="pretty-descrip">
-          Progress indicators inform users about the status of ongoing processes, such asloading an app, submitting a form, or saving updates. They communicate an app’s state and
-          indicate available actions, such as whether users can navigate away from the current screen.</span>
-        <div class="progress-circular-style__block">
-          <div class="progress-circular-1"></div>
-          <div class="progress-circular-2"></div>
-          <div class="progress-circular-3"></div>
-          <div class="progress-circular-4"></div>
-          <div class="progress-circular-5"></div>
-        </div><span class="pretty-descrip">Circular progress support both determinate and indeterminate processes.</span>
-        <xmp class="prettyprint pretty-code">
-          <div class="progress-circular-style__block">
-            <div class="progress-circular-1"></div>
-            <div class="progress-circular-2"></div>
-            <div class="progress-circular-3"></div>
-            <div class="progress-circular-4"></div>
-            <div class="progress-circular-5"></div>
-          </div>
-        </xmp><span class="siteContent_elementTitle" id="progress_linear">Progress Linear</span><span class="pretty-descrip">
-          Linear progress indicators display progress by animating an indicator along thelength of a fixed, visible track. The behavior of the indicator is dependent on whether the
-          progress of a process is known.</span>
-        <div class="progress-linear-style__block">
-          <div class="progress-linear-1"></div>
-          <div class="progress-linear-2"></div>
-          <div class="progress-linear-3"></div>
-          <div class="progress-linear-4"></div>
-          <div class="progress-linear-5"></div>
-          <div class="progress-linear-6"></div>
-        </div><span class="pretty-descrip">
-          Determinate operations display the indicator increasing in width from 0 to 100% ofthe track, in sync with the process’s progress. An example is shown below:</span>
-        <xmp class="prettyprint pretty-code">
-          <div class="progress-linear-style__block">
-            <div class="progress-linear-1"></div>
-            <div class="progress-linear-2"></div>
-            <div class="progress-linear-3"></div>
-            <div class="progress-linear-4"></div>
-            <div class="progress-linear-5"></div>
-            <div class="progress-linear-6"></div>
-          </div>
-        </xmp><span class="siteContent_elementTitle" id="radio">Radio Button</span><span class="pretty-descrip">
-          Radio buttons allow the user to select one option from a set. Use radio buttonswhen the user needs to see all available options. If available options can be collapsed,
-          consider using a dropdown menu because it uses less space. Radio buttons should have the most
-          commonly used option selected by default.</span>
-        <div class="radio-style__block"><span class="da-radio-desc">Keep Wi-Fi on during sleep</span>
-          <input class="da-radio" id="always" type="radio" name="keep">
-          <label class="da-radio-label" for="always"><span class="da-radio__body"><span class="da-radio__body-center"></span></span><span class="da-radio__title">Always</span></label>
-          <input class="da-radio" id="plug" type="radio" name="keep">
-          <label class="da-radio-label" for="plug"><span class="da-radio__body"><span class="da-radio__body-center"></span></span><span class="da-radio__title">Only when plugged in</span></label>
-          <input class="da-radio" id="never" type="radio" name="keep">
-          <label class="da-radio-label" for="never"><span class="da-radio__body"><span class="da-radio__body-center"></span></span><span class="da-radio__title">Never</span></label>
-        </div><span class="pretty-descrip">The code for the buttons above looks like this:</span>
-        <xmp class="prettyprint pretty-code">
-          <div class="radio-style__block"><span class="da-radio-desc">Keep Wi-Fi on during sleep</span>
-            <input class="da-radio" id="always" type="radio" name="keep">
-            <label class="da-radio-label" for="always"><span class="da-radio__body"><span class="da-radio__body-center"></span></span><span class="da-radio__title">Always</span></label>
-            <input class="da-radio" id="plug" type="radio" name="keep">
-            <label class="da-radio-label" for="plug"><span class="da-radio__body"><span class="da-radio__body-center"></span></span><span class="da-radio__title">Only when plugged in</span></label>
-            <input class="da-radio" id="never" type="radio" name="keep">
-            <label class="da-radio-label" for="never"><span class="da-radio__body"><span class="da-radio__body-center"></span></span><span class="da-radio__title">Never</span></label>
-          </div>
-        </xmp><span class="siteContent_elementTitle" id="shadow">Shadow</span>
-        <div class="shadow-wraper">
-          <div class="da-shadow-1 shadow_style"></div>
-          <div class="da-shadow-2 shadow_style"></div>
-          <div class="da-shadow-3 shadow_style"></div>
-          <div class="da-shadow-4 shadow_style"></div>
-          <div class="da-shadow-5 shadow_style"></div>
-        </div><span class="pretty-descrip">
-          You can use this style element simply by adding a class to the appropriate block,for example:</span>
-        <xmp class="prettyprint pretty-code">
-          <div class="shadow-wraper">
-            <div class="da-shadow-1 shadow_style"></div>
-            <div class="da-shadow-2 shadow_style"></div>
-            <div class="da-shadow-3 shadow_style"></div>
-            <div class="da-shadow-4 shadow_style"></div>
-            <div class="da-shadow-5 shadow_style"></div>
-          </div>
-        </xmp><span class="siteContent_elementTitle" id="slider">Slider</span>
-        <div class="da-slidecontainer">
-          <div class="da-slidecontainer__header">Music, video, games & other media</div>
-          <input class="da-slidecontainer__slider" id="myRange" type="range" min="1" max="100" value="50">
-          <div class="da-slidecontainer__header">Notifications</div>
-          <input class="da-slidecontainer__slider big-or" id="myRange" type="range" min="1" max="100" value="50">
-          <div class="da-slidecontainer-with-value">
-            <div class="da-slidecontainer-with-value__text">R</div>
-            <input class="da-slidecontainer__slider blue" id="myRange1" type="range" min="1" max="100" value="50"><span id="demo"></span>
-          </div>
-          <div class="da-slidecontainer-with-value">
-            <div class="da-slidecontainer-with-value__text">G</div>
-            <input class="da-slidecontainer__slider big" id="myRange2" type="range" min="1" max="100" value="50"><span id="demo2"></span>
-          </div>
-          <div class="da-slidecontainer-with-value">
-            <div class="da-slidecontainer-with-value__text">B</div>
-            <input class="da-slidecontainer__slider blue" id="myRange3" type="range" min="1" max="100" value="50"><span id="demo3"></span>
-          </div>
-          <div class="da-slidecontainer__header">Brightness</div>
-          <input class="da-slidecontainer__slider big-gr" id="myRange" type="range" min="1" max="100" value="50">
-          <div class="da-slidecontainer__header">Ratings</div>
-          <input class="da-slidecontainer__slider big-gr" id="myRange" type="range" min="1" max="100" value="50">
-        </div><span class="pretty-descrip">
-          Sliders allow users to make selections from a range of values.for example:</span>
-        <xmp class="prettyprint pretty-code">
-          <div class="da-slidecontainer">
-            <div class="da-slidecontainer__header">Music, video, games & other media</div>
-            <input class="da-slidecontainer__slider" id="myRange" type="range" min="1" max="100" value="50">
-            <div class="da-slidecontainer__header">Notifications</div>
-            <input class="da-slidecontainer__slider big-or" id="myRange" type="range" min="1" max="100" value="50">
-            <div class="da-slidecontainer-with-value">
-              <div class="da-slidecontainer-with-value__text">R</div>
-              <input class="da-slidecontainer__slider blue" id="myRange1" type="range" min="1" max="100" value="50"><span id="demo"></span>
-            </div>
-            <div class="da-slidecontainer-with-value">
-              <div class="da-slidecontainer-with-value__text">G</div>
-              <input class="da-slidecontainer__slider big" id="myRange2" type="range" min="1" max="100" value="50"><span id="demo2"></span>
-            </div>
-            <div class="da-slidecontainer-with-value">
-              <div class="da-slidecontainer-with-value__text">B</div>
-              <input class="da-slidecontainer__slider blue" id="myRange3" type="range" min="1" max="100" value="50"><span id="demo3"></span>
-            </div>
-            <div class="da-slidecontainer__header">Brightness</div>
-            <input class="da-slidecontainer__slider big-gr" id="myRange" type="range" min="1" max="100" value="50">
-            <div class="da-slidecontainer__header">Ratings</div>
-            <input class="da-slidecontainer__slider big-gr" id="myRange" type="range" min="1" max="100" value="50">
-          </div>
-        </xmp><span class="siteContent_elementTitle" id="switch">Switch(Toggle)</span><span class="pretty-descrip">
-          Switches toggle the state of a single setting on or off. They are the preferredway to adjust settings on mobile. The option that the switch controls, as well as the state
-          it’s in, should be made clear from the corresponding inline label.</span>
-        <div class="switch-style__block">
-          <input class="da-switch" id="wifi" type="checkbox">
-          <label class="da-switch-label" for="wifi"><span class="da-switch__slider da-switch__round"></span>Wi-Fi</label>
-          <input class="da-switch" id="bluetoothe" type="checkbox">
-          <label class="da-switch-label" for="bluetoothe"><span class="da-switch__slider da-switch__round"></span>Bluetooth</label>
-          <input class="da-switch" id="airplane" type="checkbox">
-          <label class="da-switch-label" for="airplane"><span class="da-switch__slider da-switch__round"></span>Airplane Mode</label>
-        </div><span class="pretty-descrip">Example of using elements:</span>
-        <xmp class="prettyprint pretty-code">
-          <div class="switch-style__block">
-            <input class="da-switch" id="wifi" type="checkbox">
-            <label class="da-switch-label" for="wifi"><span class="da-switch__slider da-switch__round"></span>Wi-Fi</label>
-            <input class="da-switch" id="bluetoothe" type="checkbox">
-            <label class="da-switch-label" for="bluetoothe"><span class="da-switch__slider da-switch__round"></span>Bluetooth</label>
-            <input class="da-switch" id="airplane" type="checkbox">
-            <label class="da-switch-label" for="airplane"><span class="da-switch__slider da-switch__round"></span>Airplane Mode</label>
-          </div>
-        </xmp><span class="siteContent_elementTitle" id="tabs">Tabs</span><span class="pretty-descrip">
-          Tabs organize and allow navigation between groups of content that are related andat the same level of hierarchy.</span>
-        <div class="tabs-style__block"><span class="tabs-style__title">A. No ink effect and no sliding bar</span>
-          <div class="da-tabs-default">
-            <div class="da-tabs-default__link da-tabs-default__selected">item one</div>
-            <div class="da-tabs-default__link">item two</div>
-            <div class="da-tabs-default__link">item three</div>
-          </div><span class="tabs-style__title">B. The bar slides to the selected tab</span>
-          <div class="da-tabs-slider">
-            <div class="da-tabs-slider__link da-tabs-slider__selected">item one</div>
-            <div class="da-tabs-slider__link">item two</div>
-            <div class="da-tabs-slider__link">item three</div>
-          </div><span class="tabs-style__title">C. Inky Tabs</span>
-          <div class="da-tabs-inky">
-            <div class="da-tabs-inky__link da-tabs-inky__selected">item one
-              <div class="rippleJS"></div>
-            </div>
-            <div class="da-tabs-inky__link">item two
-              <div class="rippleJS"></div>
-            </div>
-            <div class="da-tabs-inky__link">item three
-              <div class="rippleJS"></div>
-            </div>
-          </div>
-          <div class="da-tabs-inky__white tabs-style__indent">
-            <div class="da-tabs-inky__white-link da-tabs-inky__white-selected">item one
-              <div class="rippleJS"></div>
-            </div>
-            <div class="da-tabs-inky__white-link">item two
-              <div class="rippleJS"></div>
-            </div>
-            <div class="da-tabs-inky__white-link">item three
-              <div class="rippleJS"></div>
-            </div>
-          </div>
-          <div class="da-tabs-toolbar tabs-style__indent">
-            <div class="da-tabs-toolbar__header">
-              <div class="da-tabs-toolbar__image-container" id="da-tabs-toolbar"><img src="images/dehaze.png" alt="" width="18px" height="18px">
-                <div class="rippleJS"></div>
-              </div><span class="da-tabs-toolbar__header-title">Title</span>
-              <div class="da-tabs-toolbar__image-container"><img src="images/search.png" alt="" width="18px" height="18px">
-                <div class="rippleJS"></div>
-              </div>
-              <div class="da-tabs-toolbar__image-container"><img src="images/more.png" alt="" width="18px" height="18px">
-                <div class="rippleJS"></div>
-              </div>
-            </div>
-            <div class="da-tabs-toolbar__nav">
-              <div class="da-tabs-inky__link da-tabs-inky__selected">item one
-                <div class="rippleJS"></div>
-              </div>
-              <div class="da-tabs-inky__link">item two
-                <div class="rippleJS"></div>
-              </div>
-              <div class="da-tabs-inky__link">item three
-                <div class="rippleJS"></div>
-              </div>
-            </div>
-          </div>
-          <div class="da-tabs-custom tabs-style__indent">
-            <div class="da-tabs-custom__nav">
-              <div class="da-tabs-custom__link da-tabs-inky__selected">item one
-                <div class="rippleJS"></div>
-              </div>
-              <div class="da-tabs-custom__link">item two
-                <div class="rippleJS"></div>
-              </div>
-            </div>
-            <div class="da-tabs-toolbar__image-container"><img src="images/search.png" alt="" width="18px" height="18px">
-              <div class="rippleJS"></div>
-            </div>
-          </div>
-        </div><span class="pretty-descrip">The example code is shown below. For this elements used library rippleJS and native JavaScript.</span>
-        <xmp class="prettyprint pretty-code">
-          <div class="tabs-style__block"><span class="tabs-style__title">A. No ink effect and no sliding bar</span>
-            <div class="da-tabs-default">
-              <div class="da-tabs-default__link da-tabs-default__selected">item one</div>
-              <div class="da-tabs-default__link">item two</div>
-              <div class="da-tabs-default__link">item three</div>
-            </div><span class="tabs-style__title">B. The bar slides to the selected tab</span>
-            <div class="da-tabs-slider">
-              <div class="da-tabs-slider__link da-tabs-slider__selected">item one</div>
-              <div class="da-tabs-slider__link">item two</div>
-              <div class="da-tabs-slider__link">item three</div>
-            </div><span class="tabs-style__title">C. Inky Tabs</span>
-            <div class="da-tabs-inky">
-              <div class="da-tabs-inky__link da-tabs-inky__selected">item one
-                <div class="rippleJS"></div>
-              </div>
-              <div class="da-tabs-inky__link">item two
-                <div class="rippleJS"></div>
-              </div>
-              <div class="da-tabs-inky__link">item three
-                <div class="rippleJS"></div>
-              </div>
-            </div>
-            <div class="da-tabs-inky__white tabs-style__indent">
-              <div class="da-tabs-inky__white-link da-tabs-inky__white-selected">item one
-                <div class="rippleJS"></div>
-              </div>
-              <div class="da-tabs-inky__white-link">item two
-                <div class="rippleJS"></div>
-              </div>
-              <div class="da-tabs-inky__white-link">item three
-                <div class="rippleJS"></div>
-              </div>
-            </div>
-            <div class="da-tabs-toolbar tabs-style__indent">
-              <div class="da-tabs-toolbar__header">
-                <div class="da-tabs-toolbar__image-container" id="da-tabs-toolbar"><img src="images/dehaze.png" alt="" width="18px" height="18px">
-                  <div class="rippleJS"></div>
-                </div><span class="da-tabs-toolbar__header-title">Title</span>
-                <div class="da-tabs-toolbar__image-container"><img src="images/search.png" alt="" width="18px" height="18px">
-                  <div class="rippleJS"></div>
-                </div>
-                <div class="da-tabs-toolbar__image-container"><img src="images/more.png" alt="" width="18px" height="18px">
-                  <div class="rippleJS"></div>
-                </div>
-              </div>
-              <div class="da-tabs-toolbar__nav">
-                <div class="da-tabs-inky__link da-tabs-inky__selected">item one
-                  <div class="rippleJS"></div>
-                </div>
-                <div class="da-tabs-inky__link">item two
-                  <div class="rippleJS"></div>
-                </div>
-                <div class="da-tabs-inky__link">item three
-                  <div class="rippleJS"></div>
-                </div>
-              </div>
-            </div>
-            <div class="da-tabs-custom tabs-style__indent">
-              <div class="da-tabs-custom__nav">
-                <div class="da-tabs-custom__link da-tabs-inky__selected">item one
-                  <div class="rippleJS"></div>
-                </div>
-                <div class="da-tabs-custom__link">item two
-                  <div class="rippleJS"></div>
-                </div>
-              </div>
-              <div class="da-tabs-toolbar__image-container"><img src="images/search.png" alt="" width="18px" height="18px">
-                <div class="rippleJS"></div>
-              </div>
-            </div>
-          </div>
-        </xmp><span class="siteContent_elementTitle" id="toast">Toast</span>
-        <div class="da-toast">
-          <div class="da-toast-first">Your draft has been discarded.</div>
-          <div class="da-toast-connect">Connection timed out. Showing limited messages.
-            <button class="da-toast-connect__button">RETRY</button>
-          </div>
-          <div class="da-toast-message">Message sent</div>
-        </div>
-        <pan class="pretty-descrip">Materialize provides an easy way for you to send unobtrusive alerts to your users through toasts. These toasts are also placed and sized responsively</pan>
-        <xmp class="prettyprint pretty-code">
-          <div class="da-toast">
-            <div class="da-toast-first">Your draft has been discarded.</div>
-            <div class="da-toast-connect">Connection timed out. Showing limited messages.
-              <button class="da-toast-connect__button">RETRY</button>
-            </div>
-            <div class="da-toast-message">Message sent</div>
-          </div>
-        </xmp><span class="siteContent_elementTitle" id="toolbar">Toolbar</span><span class="pretty-descrip">
-          In computer interface design, a toolbar is a graphical control element onwhich on-screen buttons, icons, menus, or other input or output elements are placed. Toolbars
-          are seen in many types of software such as office suites, graphics editors and web browsers.</span>
-        <div class="toolbar-style__block">
-          <div class="da-toolbar-default toolbar-style__default-color">
-            <div class="da-toolbar__img-container"><img src="images/dehaze.png" alt="" width="18px" height="18px">
-              <div class="rippleJS"></div>
-            </div><span class="da-toolbar__title">Toolbar</span>
-            <div class="da-toolbar__img-container"><img src="images/refresh.png" alt="" width="18px" height="18px">
-              <div class="rippleJS"></div>
-            </div>
-            <div class="da-toolbar__img-container"><img src="images/more.png" alt="" width="18px" height="18px">
-              <div class="rippleJS"></div>
-            </div>
-          </div>
-          <div class="da-toolbar-tall__top toolbar-style__tallTop-color">
-            <div class="da-toolbar-default">
-              <div class="da-toolbar__img-container"><img src="images/dehaze.png" alt="" width="18px" height="18px">
-                <div class="rippleJS"></div>
-              </div><span class="da-toolbar__title">Toolbar: toll</span>
-              <div class="da-toolbar__img-container"><img src="images/refresh.png" alt="" width="18px" height="18px">
-                <div class="rippleJS"></div>
-              </div>
-              <div class="da-toolbar__img-container"><img src="images/more.png" alt="" width="18px" height="18px">
-                <div class="rippleJS"></div>
-              </div>
-            </div>
-          </div>
-          <div class="da-toolbar-tall__bottom toolbar-style__tallBottom-color">
-            <div class="da-toolbar-default">
-              <div class="da-toolbar__img-container"><img src="images/dehaze.png" alt="" width="18px" height="18px">
-                <div class="rippleJS"></div>
-              </div><span class="da-toolbar__title">Toolbar: tall with elements aligned to the bottom</span>
-              <div class="da-toolbar__img-container"><img src="images/refresh.png" alt="" width="18px" height="18px">
-                <div class="rippleJS"></div>
-              </div>
-              <div class="da-toolbar__img-container"><img src="images/more.png" alt="" width="18px" height="18px">
-                <div class="rippleJS"></div>
-              </div>
-            </div>
-          </div>
-          <div class="da-toolbar-medium toolbar-style__medium-color">
-            <div class="da-toolbar__img-container"><img src="images/dehaze.png" alt="" width="18px" height="18px">
-              <div class="rippleJS"></div>
-            </div><span class="da-toolbar__title">Toolbar: medium-tall with labels aligned to the bottom</span>
-            <div class="da-toolbar__img-container"><img src="images/refresh.png" alt="" width="18px" height="18px">
-              <div class="rippleJS"></div>
-            </div>
-            <div class="da-toolbar__img-container"><img src="images/more.png" alt="" width="18px" height="18px">
-              <div class="rippleJS"></div>
-            </div>
-          </div>
-          <div class="da-toolbar-tallMedium toolbar-style__tallMedium-color">
-            <div class="da-toolbar__img-container"><img src="images/dehaze.png" alt="" width="18px" height="18px">
-              <div class="rippleJS"></div>
-            </div>
-            <div class="da-toolbar-tallMedium__content"><span>Toolbar: tall with labels aligned to the middle</span><span>Toolbar elements aligned to the bottom</span></div>
-            <div class="da-toolbar__img-container"><img src="images/refresh.png" alt="" width="18px" height="18px">
-              <div class="rippleJS"></div>
-            </div>
-            <div class="da-toolbar__img-container"><img src="images/more.png" alt="" width="18px" height="18px">
-              <div class="rippleJS"></div>
-            </div>
-          </div>
-        </div><span class="pretty-descrip">Toolbar can transform into a contextual action bar or used as a navbar.</span>
-        <xmp class="prettyprint pretty-code">
-          <div class="toolbar-style__block">
-            <div class="da-toolbar-default toolbar-style__default-color">
-              <div class="da-toolbar__img-container"><img src="images/dehaze.png" alt="" width="18px" height="18px">
-                <div class="rippleJS"></div>
-              </div><span class="da-toolbar__title">Toolbar</span>
-              <div class="da-toolbar__img-container"><img src="images/refresh.png" alt="" width="18px" height="18px">
-                <div class="rippleJS"></div>
-              </div>
-              <div class="da-toolbar__img-container"><img src="images/more.png" alt="" width="18px" height="18px">
-                <div class="rippleJS"></div>
-              </div>
-            </div>
-            <div class="da-toolbar-tall__top toolbar-style__tallTop-color">
-              <div class="da-toolbar-default">
-                <div class="da-toolbar__img-container"><img src="images/dehaze.png" alt="" width="18px" height="18px">
-                  <div class="rippleJS"></div>
-                </div><span class="da-toolbar__title">Toolbar: toll</span>
-                <div class="da-toolbar__img-container"><img src="images/refresh.png" alt="" width="18px" height="18px">
-                  <div class="rippleJS"></div>
-                </div>
-                <div class="da-toolbar__img-container"><img src="images/more.png" alt="" width="18px" height="18px">
-                  <div class="rippleJS"></div>
-                </div>
-              </div>
-            </div>
-            <div class="da-toolbar-tall__bottom toolbar-style__tallBottom-color">
-              <div class="da-toolbar-default">
-                <div class="da-toolbar__img-container"><img src="images/dehaze.png" alt="" width="18px" height="18px">
-                  <div class="rippleJS"></div>
-                </div><span class="da-toolbar__title">Toolbar: tall with elements aligned to the bottom</span>
-                <div class="da-toolbar__img-container"><img src="images/refresh.png" alt="" width="18px" height="18px">
-                  <div class="rippleJS"></div>
-                </div>
-                <div class="da-toolbar__img-container"><img src="images/more.png" alt="" width="18px" height="18px">
-                  <div class="rippleJS"></div>
-                </div>
-              </div>
-            </div>
-            <div class="da-toolbar-medium toolbar-style__medium-color">
-              <div class="da-toolbar__img-container"><img src="images/dehaze.png" alt="" width="18px" height="18px">
-                <div class="rippleJS"></div>
-              </div><span class="da-toolbar__title">Toolbar: medium-tall with labels aligned to the bottom</span>
-              <div class="da-toolbar__img-container"><img src="images/refresh.png" alt="" width="18px" height="18px">
-                <div class="rippleJS"></div>
-              </div>
-              <div class="da-toolbar__img-container"><img src="images/more.png" alt="" width="18px" height="18px">
-                <div class="rippleJS"></div>
-              </div>
-            </div>
-            <div class="da-toolbar-tallMedium toolbar-style__tallMedium-color">
-              <div class="da-toolbar__img-container"><img src="images/dehaze.png" alt="" width="18px" height="18px">
-                <div class="rippleJS"></div>
-              </div>
-              <div class="da-toolbar-tallMedium__content"><span>Toolbar: tall with labels aligned to the middle</span><span>Toolbar elements aligned to the bottom</span></div>
-              <div class="da-toolbar__img-container"><img src="images/refresh.png" alt="" width="18px" height="18px">
-                <div class="rippleJS"></div>
-              </div>
-              <div class="da-toolbar__img-container"><img src="images/more.png" alt="" width="18px" height="18px">
-                <div class="rippleJS"></div>
-              </div>
-            </div>
-          </div>
-        </xmp><span class="siteContent_elementTitle" id="tooltips">Tooltips</span>
-        <div class="da-tooltips-wrapper">
-          <div class="da-tooltips">
-            <button class="da-tooltips__arrow-icon da-icon-button__style">
-              <div class="material-icons white">arrow_forward</div>
-            </button>
-            <div class="tooltip tooltip_left">Tooltip text</div>
-          </div>
-          <div class="da-tooltips">
-            <button class="da-tooltips__create-icon da-icon-button__style">
-              <div class="material-icons white">create</div>
-            </button>
-            <div class="tooltip tooltip_bottom">Tooltip text</div>
-          </div>
-          <div class="da-tooltips">
-            <button class="da-tooltips__add-icon da-icon-button__style">
-              <div class="material-icons grey">add</div>
-            </button>
-            <div class="tooltip tooltip_top">Tooltip text</div>
-          </div>
-          <div class="da-tooltips">
-            <button class="da-tooltips__done da-icon-button-m__style">
-              <div class="material-icons white">done</div>
-            </button>
-            <div class="tooltip tooltip_right">Tooltip text</div>
-          </div>
-        </div><span class="pretty-descrip">Tooltips display informative text when users hover over, focus on, or tap an element. For example:</span>
-        <xmp class="prettyprint pretty-code">
-          <div class="da-tooltips-wrapper">
-            <div class="da-tooltips">
-              <button class="da-tooltips__arrow-icon da-icon-button__style">
-                <div class="material-icons white">arrow_forward</div>
-              </button>
-              <div class="tooltip tooltip_left">Tooltip text</div>
-            </div>
-            <div class="da-tooltips">
-              <button class="da-tooltips__create-icon da-icon-button__style">
-                <div class="material-icons white">create</div>
-              </button>
-              <div class="tooltip tooltip_bottom">Tooltip text</div>
-            </div>
-            <div class="da-tooltips">
-              <button class="da-tooltips__add-icon da-icon-button__style">
-                <div class="material-icons grey">add</div>
-              </button>
-              <div class="tooltip tooltip_top">Tooltip text</div>
-            </div>
-            <div class="da-tooltips">
-              <button class="da-tooltips__done da-icon-button-m__style">
-                <div class="material-icons white">done</div>
-              </button>
-              <div class="tooltip tooltip_right">Tooltip text</div>
-        
             </div>
           </div>
         </xmp>
