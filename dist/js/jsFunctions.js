@@ -7,7 +7,7 @@ window.onload = function () {
         var name = target.dataset.name;
         alert(name);
         var elem = document.getElementById(name);
-        elem.scrolIntoView(top);
+        elem.scrollIntoView(top);
         for (var i=0; i < linkItems.length; i++){
             linkItems[i].classList.remove('da-sidebar__active');
         }
