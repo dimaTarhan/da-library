@@ -6,11 +6,11 @@ window.onload = function () {
         if (!target.classList.contains('da-sidebar__link')) return;
         var name = target.dataset.name;
         var elem = document.getElementById(name);
-        elem.scrollIntoView();
-        alert(name);
         for (var i=0; i < linkItems.length; i++){
             linkItems[i].classList.remove('da-sidebar__active');
         }
         target.classList.add('da-sidebar__active');
+        alert(name);
+        elem.scrollIntoView();
     });
 };
