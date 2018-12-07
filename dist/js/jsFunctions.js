@@ -4,6 +4,9 @@ window.onload = function () {
     elementsWraper[0].addEventListener("click", function () {
         var target = event.target;
         if (!target.classList.contains('da-sidebar__link')) return;
+        var name = target.dataset.name;
+        var elem = document.getElementById(name);
+        elem.scrolIntoView(top);
         for (var i=0; i < linkItems.length; i++){
             linkItems[i].classList.remove('da-sidebar__active');
         }
