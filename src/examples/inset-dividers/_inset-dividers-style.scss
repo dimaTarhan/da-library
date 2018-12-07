@@ -1,0 +1,13 @@
+.da-inset-dividers{
+	display: flex;
+	flex-direction: column;
+	margin-bottom:60px;
+	margin-left: 30%;
+	margin-top:5%;
+	&__discription{
+		margin-top:20px;
+	}
+	&__but{
+		margin-top:20px;
+	}
+}

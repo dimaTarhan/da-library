@@ -10,6 +10,7 @@ html(lang='en')
         link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
         script(src = " https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js ")
         script(src="js/jsFunctions.js")
+        
     body
         include examples/header/header
         .siteContent
@@ -24,6 +25,17 @@ html(lang='en')
                     | The last example of this demo show how to use buttons:
                 xmp.prettyprint.pretty-code
                     include examples/buttons/buttons
+                span#cards.siteContent_elementTitle Cards
+                span.pretty-descrip Cards are surfaces that display content and actions on a single topic.
+                    | They should be easy to scan for relevant and actionable information. Elements, like text
+                    | and images, should be placed on them in a way that clearly indicates hierarchy. Although cards
+                    | can support multiple actions, UI controls, and an overflow menu, use restraint and remember
+                    | that cards are entry points to more complex and detailed information.
+                include examples/cards/cards
+                span.pretty-descrip For the creation of the above examples of cards, you can use the classes of the
+                    | library, which are given in the code below:
+                xmp.prettyprint.pretty-code
+                    include examples/cards/cards
 
                 span#fab-speed-dial.siteContent_elementTitle FAB Speed Dial
                 include examples/fab-speed-dial/fab-speed-dial
@@ -57,6 +69,15 @@ html(lang='en')
                         | An input field can vary in many ways, depending on the type attribute.
                 xmp.prettyprint.pretty-code
                     include examples/inputs/inputs
+                
+                span#inset-dividers.siteContent_elementTitle Inset Dividers
+                include examples/inset-dividers/inset-dividers
+                span.pretty-descrip Divider is a component that allows for Material styling of a line separator with various orientation options.
+                        | Dividers can be added to lists as a means of separating content into distinct sections. Inset dividers can also be added to provide the appearance of distinct elements in a list without cluttering content like avatar images or icons.
+                        | The last example of this demo show how to use inset dividers:
+                xmp.prettyprint.pretty-code
+                    include examples/inset-dividers/inset-dividers
+                
 
 
                 span#menu-items.siteContent_elementTitle Menus & Menu Items
@@ -83,8 +104,40 @@ html(lang='en')
                 xmp.prettyprint.pretty-code
                     include examples/box-shadow/box-shadow
                 
+                
+                span#slider.siteContent_elementTitle Slider
+                include examples/slider/slider
+                span.pretty-descrip Sliders allow users to make selections from a range of values.
+                    | for example:
+                xmp.prettyprint.pretty-code
+                    include examples/slider/slider
+
+
                 span#tooltips.siteContent_elementTitle Tooltips
                 include examples/tooltips/tooltips
+                span.pretty-descrip Tooltips display informative text when users hover over, focus on, or tap an element. For example:
+                xmp.prettyprint.pretty-code
+                    include examples/tooltips/tooltips
+
+                span#toast.siteContent_elementTitle Toast
+                include examples/toast/toast
+                pan.pretty-descrip Materialize provides an easy way for you to send unobtrusive alerts to your users through toasts. These toasts are also placed and sized responsively
+                xmp.prettyprint.pretty-code
+                    include examples/toast/toast
+
+
+                span#dialog.siteContent_elementTitle Dialog
+                include examples/dialog/dialog
+                pan.pretty-descrip Dialog are surfaces that display content and actions on a single topic.
+                    | They should be easy to scan for relevant and actionable information. Elements, like text
+                    | and buttons, should be placed on them in a way that clearly indicates hierarchy. 
+                xmp.prettyprint.pretty-code
+                    include examples/dialog/dialog
+                
+        script(src="js/slider.js")
+        script(src="js/slider2.js")
+        script(src="js/slider1.js")
+                
                 
                 
                 
