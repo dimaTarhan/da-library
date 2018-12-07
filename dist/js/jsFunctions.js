@@ -5,9 +5,9 @@ window.onload = function () {
         var target = event.target;
         if (!target.classList.contains('da-sidebar__link')) return;
         var name = target.dataset.name;
-        alert(name);
         var elem = document.getElementById(name);
-        elem.scrollIntoView(top);
+        alert(name);
+        elem.scrollIntoView();
         for (var i=0; i < linkItems.length; i++){
             linkItems[i].classList.remove('da-sidebar__active');
         }
