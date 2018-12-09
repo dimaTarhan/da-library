@@ -1,0 +1,87 @@
+@import "variables";
+@import "mixins";
+@import "../examples/header/header";
+@import "../examples/sidebar/sidebar";
+@import "../examples/fab-speed-dial/fab-speed-dial-style";
+@import "../examples/floating-button/floating-button-style";
+@import "../examples/icon-button/icon-button-style";
+@import "../examples/inputs/inputs-style";
+@import "../examples/menu-items/menu-items-style";
+@import "../examples/dropdown/dropdown-style";
+@import "../examples/tooltips/tooltips-style";
+@import "../examples/toast/toast-style";
+@import "../examples/dialog/dialog-style";
+@import "../examples/inset-dividers/inset-dividers-style";
+@import "../examples/slider/slider-style";
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.siteContent{
+  display: flex;
+  padding-top: 60px;
+  flex-direction: row;
+  font-family: $font-content;
+}
+
+.siteContent_da-elements{
+  padding: 50px 0 50px 0;
+  margin-left: 300px;
+  width: 100%;
+  z-index: 1;
+}
+
+.siteContent_elementTitle{
+  font-size: 32px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.pretty-descrip{
+  display: block;
+  margin-top: 50px;
+  margin-left: 100px;
+  line-height: 1.5;
+  padding-right: 30px;
+}
+
+.pretty-code{
+  width: 800px;
+  overflow: auto;
+  margin: 0 auto;
+  height: auto;
+  margin-top: 20px;
+  padding-right: 60px;
+  border: 2px solid $main-color;
+  border-radius: 10px;
+  background-color: #F0F0F0;
+  margin-bottom:60px;
+}
+
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.siteContent{
+  display: flex;
+  padding-top: 60px;
+  flex-direction: row;
+  font-family: $font-content;
+}
+
+.siteContent_da-elements{
+  padding: 50px 0 50px 0;
+  margin-left: 300px;
+  width: 100%;
+}
+
+.siteContent_elementTitle{
+  font-size: 32px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
