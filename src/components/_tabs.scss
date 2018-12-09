@@ -125,6 +125,14 @@
   width: 100%;
   background: #00bcd7;
   @include shadow-1();
+
+    .material-icons{
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 0;
+    }
 }
 
 .da-tabs-toolbar__header{
@@ -182,6 +190,14 @@
 
     .da-tabs-toolbar__image-container{
       margin: auto 20px 5px auto;
+    }
+
+    .material-icons{
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 0;
     }
 }
 

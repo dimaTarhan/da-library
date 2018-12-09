@@ -6,8 +6,17 @@
   @include shadow-1;
 
     .material-icons{
+      display: flex;
+      align-items: center;
+      justify-content: center;
       padding: 10px;
       color: black;
+      position: relative;
+      border-radius: 50%;
+
+      &:hover{
+        cursor: pointer;
+      }
 
       &:nth-child(2){
         margin-left: auto;

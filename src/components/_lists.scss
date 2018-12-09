@@ -81,6 +81,18 @@
     .material-icons{
       color: #757575;
       margin-left: auto;
+      margin-right: 20px;
+      padding: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      border-radius: 50%;
+      margin-bottom: 0;
+
+      &:hover{
+        cursor: pointer;
+      }
     }
 }
 
@@ -90,8 +102,20 @@
   margin-top: 20px;
   padding-bottom: 20px;
     .material-icons{
+      display: flex;
+      padding: 15px;
+      margin-bottom: 0;
+      align-items: center;
+      justify-content: center;
       color: #757575;
       margin-left: auto;
+      position: relative;
+      border-radius: 50%;
+      margin-right: 20px;
+
+      &:hover{
+        cursor: pointer;
+      }
     }
 }
 
