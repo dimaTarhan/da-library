@@ -1,0 +1,53 @@
+.lists-style__block
+
+    .lists-style__type 3 line item
+    .da-lists-item
+        .da-lists-item__avatar
+            img(src='images/cat_1.jpeg' alt="")
+        .da-lists-item__content
+            span First Line
+            span Second line of text
+            span Third line of text
+    hr.lists-style__line
+    .lists-style__type 2 line item
+    .da-lists-item
+        .da-lists-item__avatar
+            img(src='images/cat_1.jpeg' alt="")
+        .da-lists-item__content
+            span First Line
+            span Second line of text
+    hr.lists-style__line
+    .lists-style__type Single Action Checkboxes
+    .da-lists-checkbox
+        input#lists-style__label-1.da-checkbox(type='checkbox' name="notifications")
+        label.da-checkbox-label(for='lists-style__label-1') Label
+            span.da-checkbox__logo
+                svg(width='12px' height='10px' viewBox='0 0 12 10')
+                    polyline(points='1.5 6 4.5 9 10.5 1')
+    hr.lists-style__line
+    .lists-style__type Clickable Items with Secondary Control
+    .da-lists-switch
+        input#lists-style__label-2.da-switch(type="checkbox")
+        label.da-switch-label(for="lists-style__label-2")
+            | Label
+            span.da-switch__slider.da-switch__round
+    hr.lists-style__line
+    .lists-style__type Checkbox with Secondary Action
+    .da-lists-checkbox_action
+        input#checkbox_action.da-checkbox(type='checkbox' name="notifications")
+        label.da-checkbox-label(for='checkbox_action')
+            span.da-checkbox__logo
+                svg(width='12px' height='10px' viewBox='0 0 12 10')
+                    polyline(points='1.5 6 4.5 9 10.5 1')
+            |Label
+        .material-icons comment
+            .rippleJS
+    hr.lists-style__line
+    .lists-style__type Avatar with Secondary Action Icon
+    .da-lists-avatar_action
+        .da-lists-avatar_action__avatar
+            img(src='images/cat_1.jpeg' alt="")
+        .da-lists-avatar_action__content
+            span Firstname Lastname
+        .material-icons comment
+            .rippleJS
