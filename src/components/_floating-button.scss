@@ -1,0 +1,83 @@
+.da-floating-button{
+
+	&__arrow-icon{
+		width: 56px;
+		height: 56px;
+		
+		background-color: #e91e63;
+		border:0;
+		border-radius: 35px;
+		&:hover {
+			box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+		}
+	}
+	&__create-icon{
+		width: 56px;
+		height: 56px;
+		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+		background-color: #03a9f4;
+		border:0;
+		border-radius: 35px;
+		&:hover {
+			box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+		}
+	}
+	&__add-icon{
+		width: 56px;
+		height: 56px;
+		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+		background-color: #fafafa;
+		border:0;
+		border-radius: 35px;
+		&:hover {
+			box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+		}
+	}
+}
+.da-floating-button-m{
+
+	&__done{
+		width: 40px;
+  	height: 40px;
+  	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+  	background-color: #259b24;
+		border:0;
+		border-radius: 35px;
+		&:hover {
+			box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+		}
+	}
+	&__reply{
+		width: 40px;
+  	height: 40px;
+  	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+  	background-color:#673ab7;
+		border:0;
+		border-radius: 35px;
+		&:hover {
+			box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+		}
+	}
+	&__clear{
+		width: 40px;
+  	height: 40px;
+		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+		background-color: #fafafa;
+		border:0;
+		border-radius: 35px;
+		&:hover {
+			box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.26), 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+		}
+	}
+}
+.material-icons {
+	width: 16px;
+	height: 16px;
+}
+.material-icons.white { 
+	color: white; 
+}
+.material-icons.grey { 
+	color: #646464; 
+}
+
