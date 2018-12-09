@@ -7,6 +7,14 @@
   height: 60px;
   position: fixed;
   z-index: 100;
+}
+
+.da-header__title{
+  padding-left: 50px;
+  font-family: $font-content;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
 
     a{
       display: flex;
@@ -23,14 +31,6 @@
     }
 }
 
-.da-header__title{
-  padding-left: 50px;
-  font-family: $font-content;
-  color: white;
-  font-size: 30px;
-  font-weight: bold;
-}
-
 .da-header__text{
   padding-right: 50px;
   font-family: $font-content;
@@ -38,4 +38,3 @@
   font-size: 24px;
   color: white;
 }
-

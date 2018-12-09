@@ -1,0 +1,44 @@
+.da-icon-button{
+	display: flex;
+	&__discription{
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px;
+		color: #333333;
+		margin-top:15px;
+	}
+	&__el{
+		margin: 10px;
+	}
+}
+.da-styled{
+	display: flex;
+	&__discription{
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px;
+		color: #333333;
+		margin-top:15px;
+	}
+	&__el{
+		margin: 10px;
+	}
+}
+.da-segmented{
+	display: flex;
+	&__discription{
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px;
+		color: #333333;
+		margin-top:15px;
+	}
+	&__el{
+		margin: 10px;
+	}
+	
+}
+	.icon-button-wraper{
+	margin-left:20%;
+	margin-bottom:60px;
+	display: flex;
+	flex-direction: column;
+  justify-content: center;
+}

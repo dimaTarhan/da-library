@@ -1,4 +1,3 @@
-# da-library
 # DA-Library - Style library for elements
 The library contains styles for widely used site elements.
 Here you can see stylized elements, see examples of their use and download the style library!

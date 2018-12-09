@@ -1,0 +1,53 @@
+.da-icon-button{
+	&__el{
+		width: 40px;
+		height: 40px;
+		background: white;
+		border:0;
+	}
+	&__el:hover{
+		background: #f3f3f3;
+		border-radius: 20px;
+	}
+}
+.material-icons {
+	width: 12px;
+	height: 12px;
+	margin-right:8px;
+	margin-bottom:5px;
+}
+.da-styled{
+	&__el:hover{
+		background: #f3f3f3;
+		border-radius: 20px;
+	}
+	&__el{
+		width: 35px;
+		height: 35px;
+		background: white;
+		border:0;
+		display:flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+.da-segmented{
+	.material-icons.grey:hover{
+		color:black;
+	}
+	&__el{
+		width: 35px;
+		height: 35px;
+		background: white;
+		border:0;
+	}
+}
+.material-icons.red { 
+	color: #e91e63; 
+}
+.material-icons.grey { 
+	color:#c9c9c9;
+}
+.grey:hover { 
+	color:black;
+}

@@ -2,6 +2,17 @@
 @import "mixins";
 @import "../examples/header/header";
 @import "../examples/sidebar/sidebar";
+@import "../examples/fab-speed-dial/fab-speed-dial-style";
+@import "../examples/floating-button/floating-button-style";
+@import "../examples/icon-button/icon-button-style";
+@import "../examples/inputs/inputs-style";
+@import "../examples/menu-items/menu-items-style";
+@import "../examples/dropdown/dropdown-style";
+@import "../examples/tooltips/tooltips-style";
+@import "../examples/toast/toast-style";
+@import "../examples/dialog/dialog-style";
+@import "../examples/inset-dividers/inset-dividers-style";
+@import "../examples/slider/slider-style";
 @import "../examples/box-shadow/shadow-style";
 @import "../examples/buttons/buttons-style";
 @import "../examples/cards/cards-style";
@@ -14,7 +25,6 @@
 @import "../examples/toolbar/toolbar-style";
 @import "../examples/data-tables/data-tables-style";
 @import "../examples/lists/lists-style";
-
 
 body{
   margin: 0;
