@@ -1,0 +1,132 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset="UTF-8")
+        link(rel="icon" type="image/png" href="images/da-logo.png")
+        title DA-Library
+        link(rel="stylesheet" href="css/da-library.css")
+        link(rel="stylesheet" href="css/example.css")
+        link(href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet")
+        script(src = " https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js ")
+        script(src="js/script.js")
+        script(async src="https://cdn.jsdelivr.net/npm/vanilla-ripplejs@1.0.6" integrity="sha384-OlarGErerEgz/M7123pQTTek4pUIiR6t0BK09bTmWDi2cZYbv3VHrriaXDnA0Oup" crossorigin="anonymous")
+        link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
+    body
+        include examples/header/header
+        .siteContent
+            include examples/sidebar/sidebar
+            .siteContent_da-elements
+
+                span#shadow.siteContent_elementTitle Shadow
+                include examples/box-shadow/box-shadow
+                span.pretty-descrip You can use this style element simply by adding a class to the appropriate block,
+                    | for example:
+                xmp.prettyprint.pretty-code
+                    include examples/box-shadow/box-shadow
+
+                span#buttons.siteContent_elementTitle Buttons
+                include examples/buttons/buttons
+                span.pretty-descrip Flat buttons are typically used for less-pronounced actions. In cards, Flat buttons
+                    | help maintain an emphasis on card content. Raised buttons are high-emphasis, distinguished by
+                    | their use of elevation and fill. They contain actions that are primary to your app.
+                    | The last example of this demo show how to use buttons:
+                xmp.prettyprint.pretty-code
+                    include examples/buttons/buttons
+
+                span#cards.siteContent_elementTitle Cards
+                span.pretty-descrip Cards are surfaces that display content and actions on a single topic.
+                    | They should be easy to scan for relevant and actionable information. Elements, like text
+                    | and images, should be placed on them in a way that clearly indicates hierarchy. Although cards
+                    | can support multiple actions, UI controls, and an overflow menu, use restraint and remember
+                    | that cards are entry points to more complex and detailed information.
+                include examples/cards/cards
+                span.pretty-descrip For the creation of the above examples of cards, you can use the classes of the
+                    | library, which are given in the code below:
+                xmp.prettyprint.pretty-code
+                    include examples/cards/cards
+
+                span#checkbox.siteContent_elementTitle Checkbox
+                span.pretty-descrip Checkboxes allow the user to select one or more items from a set. Checkboxes
+                    | can be used to turn an option on or off. If you have multiple options appearing in a list,
+                    | you can preserve space by using checkboxes instead of on/off switches. If you have a single
+                    | option, avoid using a checkbox and use an on/off switch instead.
+                include examples/checkbox/checkbox
+                span.pretty-descrip You can see the example code below:
+                xmp.prettyprint.pretty-code
+                    include examples/checkbox/checkbox
+
+                span#radio.siteContent_elementTitle Radio Button
+                span.pretty-descrip Radio buttons allow the user to select one option from a set. Use radio buttons
+                    | when the user needs to see all available options. If available options can be collapsed,
+                    | consider using a dropdown menu because it uses less space. Radio buttons should have the most
+                    | commonly used option selected by default.
+                include examples/radio-button/radio-button
+                span.pretty-descrip The code for the buttons above looks like this:
+                xmp.prettyprint.pretty-code
+                    include examples/radio-button/radio-button
+
+                span#switch.siteContent_elementTitle Switch(Toggle)
+                span.pretty-descrip Switches toggle the state of a single setting on or off. They are the preferred
+                    | way to adjust settings on mobile. The option that the switch controls, as well as the state
+                    | it’s in, should be made clear from the corresponding inline label.
+                include examples/switch/switch
+                span.pretty-descrip Example of using elements:
+                xmp.prettyprint.pretty-code
+                    include examples/switch/switch
+
+                span#progress_circular.siteContent_elementTitle Progress Circular
+                span.pretty-descrip Progress indicators inform users about the status of ongoing processes, such as
+                    | loading an app, submitting a form, or saving updates. They communicate an app’s state and
+                    | indicate available actions, such as whether users can navigate away from the current screen.
+                include examples/progress-circular/progress-circular
+                span.pretty-descrip Circular progress support both determinate and indeterminate processes.
+                xmp.prettyprint.pretty-code
+                    include examples/progress-circular/progress-circular
+
+                span#progress_linear.siteContent_elementTitle Progress Linear
+                span.pretty-descrip Linear progress indicators display progress by animating an indicator along the
+                    | length of a fixed, visible track. The behavior of the indicator is dependent on whether the
+                    | progress of a process is known.
+                include examples/progress-linear/progress-linear
+                span.pretty-descrip Determinate operations display the indicator increasing in width from 0 to 100% of
+                    | the track, in sync with the process’s progress. An example is shown below:
+                xmp.prettyprint.pretty-code
+                    include examples/progress-linear/progress-linear
+
+                span#tabs.siteContent_elementTitle Tabs
+                span.pretty-descrip Tabs organize and allow navigation between groups of content that are related and
+                    | at the same level of hierarchy.
+                include examples/tabs/tabs
+                span.pretty-descrip The example code is shown below. For this elements used library rippleJS and native JavaScript.
+                xmp.prettyprint.pretty-code
+                    include examples/tabs/tabs
+
+                span#toolbar.siteContent_elementTitle Toolbar
+                span.pretty-descrip In computer interface design, a toolbar is a graphical control element on
+                    | which on-screen buttons, icons, menus, or other input or output elements are placed. Toolbars
+                    | are seen in many types of software such as office suites, graphics editors and web browsers.
+                include examples/toolbar/toolbar
+                span.pretty-descrip Toolbar can transform into a contextual action bar or used as a navbar.
+                xmp.prettyprint.pretty-code
+                    include examples/toolbar/toolbar
+
+                span#tables.siteContent_elementTitle Data Tables
+                span.pretty-descrip Data tables display information in a way that’s easy to scan, so that users can
+                    | look for patterns and insights. They can be embedded in primary content, such as cards.
+                    | Data tables can include: a corresponding visualization; navigation; tools to query and
+                    | manipulate data. When including tools, they should be placed directly above or below the table.
+                include examples/data-tables/data-tables
+                span.pretty-descrip A data table contains a header row at the top that lists column names, followed
+                    | by rows for data. Checkboxes should accompany each row if the user needs to select or
+                    | manipulate data.
+                xmp.prettyprint.pretty-code
+                    include examples/data-tables/data-tables
+
+                pan#lists.siteContent_elementTitle Lists
+                span.pretty-descrip Lists are a continuous group of text or images. They are composed of items
+                    | containing primary and supplemental actions, which are represented by icons and text.
+                include examples/lists/lists
+                span.pretty-descrip List groups are a flexible and powerful component for displaying a series of
+                    | content. Modify and extend them to support just about any content within.
+                xmp.prettyprint.pretty-code
+                    include examples/lists/lists

@@ -1,0 +1,22 @@
+.lists-style__block{
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-top: 10px;
+  @include shadow-1();
+}
+
+.lists-style__type{
+  color: rgba(0, 0, 0, 0.54);
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.lists-style__line{
+  border: none;
+  color: #e0e0e0;
+  margin-top: 20px;
+  background-color: #e0e0e0;
+  height: 2px;
+}
