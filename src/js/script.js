@@ -5,10 +5,17 @@ window.onload = function () {
     elementsWraper[0].addEventListener("click", function () {
         let targetSidebar = event.target;
         if (!targetSidebar.classList.contains('da-sidebar__link')) return;
+        //let dataName = targetSidebar.dataset.ident;
+        //let searchElem = document.getElementById(dataName);
+        //let bodyRect = document.body.getBoundingClientRect();
+        //let elementRect = searchElem.getBoundingClientRect();
+        //let rect = elementRect.top - bodyRect.top;
         for (let i=0; i < linkItems.length; i++){
             linkItems[i].classList.remove('da-sidebar__active');
         }
         targetSidebar.classList.add('da-sidebar__active');
+        //window.scrollTo(0, rect - 80);
+
     });
 
     /*Tab Toolbar*/
@@ -112,5 +119,11 @@ window.onload = function () {
         }
     }
 
+    $('a[href^="#"]').click(function () {
+        let target = $(this).attr("href");
+        $('html, body').animate({
+            scrollTop: $(target).offset().top - 80
+        }, 500)
+    });
 
 };
