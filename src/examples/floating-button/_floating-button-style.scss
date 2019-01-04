@@ -11,12 +11,27 @@
 
 	&__arrow-icon{
 		margin: 30px;
+		&:focus {
+			box-shadow: 0 0 4px rgba(0,0,0,.14),
+				0 4px 8px rgba(0,0,0,.28);
+			outline:none;
+		}
 	}
 	&__create-icon{
 		margin: 30px;
+		&:focus {
+			box-shadow: 0 0 4px rgba(0,0,0,.14),
+				0 4px 8px rgba(0,0,0,.28);
+			outline:none;
+		}
 	}
 	&__add-icon{
 		margin: 30px;
+		&:focus {
+			box-shadow: 0 0 4px rgba(0,0,0,.14),
+				0 4px 8px rgba(0,0,0,.28);
+			outline:none;
+		}
 	}
 }
 .floating-button-wraper{
@@ -37,11 +52,26 @@
 
 	&__reply{
 		margin: 20px;
+		&:focus {
+			box-shadow: 0 0 4px rgba(0,0,0,.14),
+				0 4px 8px rgba(0,0,0,.28);
+			outline:none;
+		}
 	}
 	&__done{
 		margin: 20px;
+		&:focus {
+			box-shadow: 0 0 4px rgba(0,0,0,.14),
+				0 4px 8px rgba(0,0,0,.28);
+			outline:none;
+		}
 	}
 	&__clear{
 		margin: 20px;
+		&:focus {
+			box-shadow: 0 0 4px rgba(0,0,0,.14),
+				0 4px 8px rgba(0,0,0,.28);
+			outline:none;
+		}
 	}
 }

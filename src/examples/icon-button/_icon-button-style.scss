@@ -8,6 +8,10 @@
 	}
 	&__el{
 		margin: 10px;
+		&:focus,
+		&:hover {
+			outline:none;
+		}
 	}
 }
 .da-styled{
@@ -20,6 +24,9 @@
 	}
 	&__el{
 		margin: 10px;
+		&:focus {
+			outline:none;
+		}
 	}
 }
 .da-segmented{
@@ -32,6 +39,9 @@
 	}
 	&__el{
 		margin: 10px;
+		&:focus {
+			outline:none;
+		}
 	}
 	
 }
