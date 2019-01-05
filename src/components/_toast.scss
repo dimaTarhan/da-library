@@ -38,6 +38,7 @@
 	margin:0px 40px 60px 40px;
 }
 .da-toast-message{
+	
 	color: #fff;
 	font-family: $font-family;
 	font-weight: normal;
@@ -49,4 +50,38 @@
 	padding-left: 24px;
 	width: 288px;
 	margin:0px 40px 60px 40px;
+}
+
+
+#da-toast-example {
+	width: 288px;
+  border-radius: 3px;
+	background-color: #323232;
+	font-family: $font-family;
+	font-weight: normal;
+	font-size: 14px;
+  visibility: hidden; 
+  min-width: 250px; 
+  margin-left: -125px; 
+  color: #fff; 
+  text-align: center; 
+  border-radius: 2px;
+  padding: 16px; 
+  position: fixed; 
+  z-index: 1; 
+  left: 50%;
+  bottom: 30px; 
+}
+
+#da-toast-example.show {
+  visibility: visible; 
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
 }
