@@ -1,36 +1,37 @@
-main(role='main', data-slider-color='slider-lightBlue')
+
 .da-slidecontainer
 	.da-slidecontainer__header Music, video, games & other media
 	.da-slidecontainer__slider.slider-continuous.slider-lightOrange
-		input#myRange(type='range', min='0', max='100', value='50')
+		input(type='range', min='0', max='100', value='50')
 
 	.da-slidecontainer__header Notifications
-	.da-slidecontainer__slider.slider-continuous.slider-lightOrange
-		input#myRange(type='range', min='0', max='100', value='50')
+	.da-slidecontainer__slider.slider-continuous.slider-scale.slider-lightOrange
+		input(type='range', min='0', max='100', value='50')
 
 	.da-slidecontainer-with-value
 		.da-slidecontainer-with-value__text R
 		.da-slidecontainer__slider.slider-continuous.slider-lightBlue
-			input#myRange1(type='range', min='0', max='100', value='50')
-		span#demo
+			input(type='range', min='0', max='100', value='50')
+
 
 	.da-slidecontainer-with-value
 		.da-slidecontainer-with-value__text G
-		.da-slidecontainer__slider.slider-continuous.slider-lightBlue
-			input#myRange1(type='range', min='0', max='100', value='50')
-		span#demo2
+		.da-slidecontainer__slider.slider-continuous.slider-scale.slider-lightBlue
+			input(type='range', min='0', max='100', value='50')
+	
+
 	.da-slidecontainer-with-value
 		.da-slidecontainer-with-value__text B
 		.da-slidecontainer__slider.slider-continuous.slider-lightBlue
-			input#myRange1(type='range', min='0', max='100', value='50')
-		span#demo3
+			input(type='range', min='0', max='100', value='50')
+
 	
 	.da-slidecontainer__header Brightness
-	.da-slidecontainer__slider.slider-continuous.slider-lightGreen
-			input#myRange1(type='range', min='0', max='100', value='50')
+	.da-slidecontainer__slider.slider-discrete.slider-lightGreen
+			input(type='range', min='0', max='100', value='50')
 	.da-slidecontainer__header Ratings
-	.da-slidecontainer__slider.slider-continuous.slider-lightGreen
-			input#myRange1(type='range', min='0', max='100', value='50')
+	.da-slidecontainer__slider.slider-discrete.slider-lightGreen
+			input(type='range', min='0', max='100', value='50')
 	
 
 
