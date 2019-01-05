@@ -421,28 +421,9 @@
             </div>
           </div>
         </xmp><span class="siteContent_elementTitle" id="dialog">Dialog</span>
-        <div class="da-dialog card-style">
-          <div class="da-dialog__title">Dialog</div>
-          <div class="da-card__text">
-            <p>
-              Lorem ipsum dolor sit amet, doming noster at quo, nostrud lucilius rationibus ea duo. Vim no mucius dolores. No bonorum voluptatum vis, has iudicabit consectetuer ne. Nullam sensibus vim id, et quo graeci perpetua.</p>
-            <p>
-              Id qui scripta laboramus dissentiet, verterem partiendo vim atStet dissentiet ut mei. Iriure facilis eloquentiam pro eu, nec an esse inciderint. In meliore abhorreant sea. Eros nostro ocurreret at nec. Cu per regione persecuti.</p>
-            <p>
-              Lorem ipsum dolor sit amet, doming noster at quo, nostrud lucilius rationibus ea duo. Vim no mucius dolores. No bonorum voluptatum vis, has iudicabit consectetuer ne. Nullam sensibus vim id, et quo graeci perpetua.</p>
-          </div>
-          <div class="da-card__button">
-            <button class="da-button card-style__button">More info...</button>
-            <button class="da-button card-style__button card-style__button_indent">Decline</button>
-            <button class="da-button da-flat-button_colored card-style__button">Accept</button>
-          </div>
-        </div>
-        <pan class="pretty-descrip">
-          Dialog are surfaces that display content and actions on a single topic.They should be easy to scan for relevant and actionable information. Elements, like text
-          and buttons, should be placed on them in a way that clearly indicates hierarchy.
-        </pan>
-        <xmp class="prettyprint pretty-code">
-          <div class="da-dialog card-style">
+        <button class="da-button" id="myBtn">Open Dialog</button>
+        <div class="modal" id="myModal">
+          <div class="da-dialog card-style"><span class="close">&times;</span>
             <div class="da-dialog__title">Dialog</div>
             <div class="da-card__text">
               <p>
@@ -456,6 +437,31 @@
               <button class="da-button card-style__button">More info...</button>
               <button class="da-button card-style__button card-style__button_indent">Decline</button>
               <button class="da-button da-flat-button_colored card-style__button">Accept</button>
+            </div>
+          </div>
+        </div>
+        <pan class="pretty-descrip">
+          Dialog are surfaces that display content and actions on a single topic.They should be easy to scan for relevant and actionable information. Elements, like text
+          and buttons, should be placed on them in a way that clearly indicates hierarchy.
+        </pan>
+        <xmp class="prettyprint pretty-code">
+          <button class="da-button" id="myBtn">Open Dialog</button>
+          <div class="modal" id="myModal">
+            <div class="da-dialog card-style"><span class="close">&times;</span>
+              <div class="da-dialog__title">Dialog</div>
+              <div class="da-card__text">
+                <p>
+                  Lorem ipsum dolor sit amet, doming noster at quo, nostrud lucilius rationibus ea duo. Vim no mucius dolores. No bonorum voluptatum vis, has iudicabit consectetuer ne. Nullam sensibus vim id, et quo graeci perpetua.</p>
+                <p>
+                  Id qui scripta laboramus dissentiet, verterem partiendo vim atStet dissentiet ut mei. Iriure facilis eloquentiam pro eu, nec an esse inciderint. In meliore abhorreant sea. Eros nostro ocurreret at nec. Cu per regione persecuti.</p>
+                <p>
+                  Lorem ipsum dolor sit amet, doming noster at quo, nostrud lucilius rationibus ea duo. Vim no mucius dolores. No bonorum voluptatum vis, has iudicabit consectetuer ne. Nullam sensibus vim id, et quo graeci perpetua.</p>
+              </div>
+              <div class="da-card__button">
+                <button class="da-button card-style__button">More info...</button>
+                <button class="da-button card-style__button card-style__button_indent">Decline</button>
+                <button class="da-button da-flat-button_colored card-style__button">Accept</button>
+              </div>
             </div>
           </div>
         </xmp><span class="siteContent_elementTitle" id="fab-speed-dial">FAB Speed Dial</span>
@@ -967,46 +973,52 @@
           </div>
         </xmp><span class="siteContent_elementTitle" id="dropdown">Menu Dropdown</span>
         <div class="da-dropdown">
-          <div class="da-dropdown__el">
-            <button class="da-dropdown__el_but da-dropdown__style"> 
-              <div class="material-icons dgrey">query_builder </div>
-            </button>
-            <div class="da-dropdown__el_discription da-dropdown__style">Recent Articles</div>
-          </div>
-          <div class="da-dropdown__el">
-            <button class="da-dropdown__el_but da-dropdown__style">
-              <div class="material-icons dgrey">assignment_returned</div>
-            </button>
-            <div class="da-dropdown__el_discription da-dropdown__style">Archive</div>
-          </div>
-          <div class="da-dropdown__el">
-            <button class="da-dropdown__el_but da-dropdown__style">
-              <div class="material-icons dgrey">done</div>
-            </button>
-            <div class="da-dropdown__el_discription da-dropdown__style">Completed</div>
+          <div class="da-menu-button">Dropdown</div>
+          <div class="da-menu">
+            <div class="da-dropdown__el">
+              <button class="da-dropdown__el_but"> 
+                <div class="material-icons dgrey">query_builder </div>
+              </button>
+              <div class="da-dropdown__el_discription">Recent Articles</div>
+            </div>
+            <div class="da-dropdown__el">
+              <button class="da-dropdown__el_but">
+                <div class="material-icons dgrey">assignment_returned</div>
+              </button>
+              <div class="da-dropdown__el_discription">Archive</div>
+            </div>
+            <div class="da-dropdown__el">
+              <button class="da-dropdown__el_but">
+                <div class="material-icons dgrey">done</div>
+              </button>
+              <div class="da-dropdown__el_discription">Completed</div>
+            </div>
           </div>
         </div><span class="pretty-descrip">
           A dropdown menu is a compact way of displaying multiple choices. It appears upon interaction with an element (such as an icon or button) or when users perform a specific action.
           The last example of this demo show how to use buttons:</span>
         <xmp class="prettyprint pretty-code">
           <div class="da-dropdown">
-            <div class="da-dropdown__el">
-              <button class="da-dropdown__el_but da-dropdown__style"> 
-                <div class="material-icons dgrey">query_builder </div>
-              </button>
-              <div class="da-dropdown__el_discription da-dropdown__style">Recent Articles</div>
-            </div>
-            <div class="da-dropdown__el">
-              <button class="da-dropdown__el_but da-dropdown__style">
-                <div class="material-icons dgrey">assignment_returned</div>
-              </button>
-              <div class="da-dropdown__el_discription da-dropdown__style">Archive</div>
-            </div>
-            <div class="da-dropdown__el">
-              <button class="da-dropdown__el_but da-dropdown__style">
-                <div class="material-icons dgrey">done</div>
-              </button>
-              <div class="da-dropdown__el_discription da-dropdown__style">Completed</div>
+            <div class="da-menu-button">Dropdown</div>
+            <div class="da-menu">
+              <div class="da-dropdown__el">
+                <button class="da-dropdown__el_but"> 
+                  <div class="material-icons dgrey">query_builder </div>
+                </button>
+                <div class="da-dropdown__el_discription">Recent Articles</div>
+              </div>
+              <div class="da-dropdown__el">
+                <button class="da-dropdown__el_but">
+                  <div class="material-icons dgrey">assignment_returned</div>
+                </button>
+                <div class="da-dropdown__el_discription">Archive</div>
+              </div>
+              <div class="da-dropdown__el">
+                <button class="da-dropdown__el_but">
+                  <div class="material-icons dgrey">done</div>
+                </button>
+                <div class="da-dropdown__el_discription">Completed</div>
+              </div>
             </div>
           </div>
         </xmp><span class="siteContent_elementTitle" id="progress_circular">Progress Circular</span><span class="pretty-descrip">
@@ -1089,49 +1101,77 @@
         </xmp><span class="siteContent_elementTitle" id="slider">Slider</span>
         <div class="da-slidecontainer">
           <div class="da-slidecontainer__header">Music, video, games & other media</div>
-          <input class="da-slidecontainer__slider" id="myRange" type="range" min="1" max="100" value="50">
+          <div class="da-slidecontainer__slider slider-continuous slider-lightOrange">
+            <input type="range" min="0" max="100" value="50">
+          </div>
           <div class="da-slidecontainer__header">Notifications</div>
-          <input class="da-slidecontainer__slider big-or" id="myRange" type="range" min="1" max="100" value="50">
+          <div class="da-slidecontainer__slider slider-continuous slider-scale slider-lightOrange">
+            <input type="range" min="0" max="100" value="50">
+          </div>
           <div class="da-slidecontainer-with-value">
             <div class="da-slidecontainer-with-value__text">R</div>
-            <input class="da-slidecontainer__slider blue" id="myRange1" type="range" min="1" max="100" value="50"><span id="demo"></span>
+            <div class="da-slidecontainer__slider slider-continuous slider-lightBlue">
+              <input type="range" min="0" max="100" value="50">
+            </div>
           </div>
           <div class="da-slidecontainer-with-value">
             <div class="da-slidecontainer-with-value__text">G</div>
-            <input class="da-slidecontainer__slider big" id="myRange2" type="range" min="1" max="100" value="50"><span id="demo2"></span>
+            <div class="da-slidecontainer__slider slider-continuous slider-scale slider-lightBlue">
+              <input type="range" min="0" max="100" value="50">
+            </div>
           </div>
           <div class="da-slidecontainer-with-value">
             <div class="da-slidecontainer-with-value__text">B</div>
-            <input class="da-slidecontainer__slider blue" id="myRange3" type="range" min="1" max="100" value="50"><span id="demo3"></span>
+            <div class="da-slidecontainer__slider slider-continuous slider-lightBlue">
+              <input type="range" min="0" max="100" value="50">
+            </div>
           </div>
           <div class="da-slidecontainer__header">Brightness</div>
-          <input class="da-slidecontainer__slider big-gr" id="myRange" type="range" min="1" max="100" value="50">
+          <div class="da-slidecontainer__slider slider-discrete slider-lightGreen">
+            <input type="range" min="0" max="100" value="50">
+          </div>
           <div class="da-slidecontainer__header">Ratings</div>
-          <input class="da-slidecontainer__slider big-gr" id="myRange" type="range" min="1" max="100" value="50">
+          <div class="da-slidecontainer__slider slider-discrete slider-lightGreen">
+            <input type="range" min="0" max="100" value="50">
+          </div>
         </div><span class="pretty-descrip">
           Sliders allow users to make selections from a range of values.for example:</span>
         <xmp class="prettyprint pretty-code">
           <div class="da-slidecontainer">
             <div class="da-slidecontainer__header">Music, video, games & other media</div>
-            <input class="da-slidecontainer__slider" id="myRange" type="range" min="1" max="100" value="50">
+            <div class="da-slidecontainer__slider slider-continuous slider-lightOrange">
+              <input type="range" min="0" max="100" value="50">
+            </div>
             <div class="da-slidecontainer__header">Notifications</div>
-            <input class="da-slidecontainer__slider big-or" id="myRange" type="range" min="1" max="100" value="50">
+            <div class="da-slidecontainer__slider slider-continuous slider-scale slider-lightOrange">
+              <input type="range" min="0" max="100" value="50">
+            </div>
             <div class="da-slidecontainer-with-value">
               <div class="da-slidecontainer-with-value__text">R</div>
-              <input class="da-slidecontainer__slider blue" id="myRange1" type="range" min="1" max="100" value="50"><span id="demo"></span>
+              <div class="da-slidecontainer__slider slider-continuous slider-lightBlue">
+                <input type="range" min="0" max="100" value="50">
+              </div>
             </div>
             <div class="da-slidecontainer-with-value">
               <div class="da-slidecontainer-with-value__text">G</div>
-              <input class="da-slidecontainer__slider big" id="myRange2" type="range" min="1" max="100" value="50"><span id="demo2"></span>
+              <div class="da-slidecontainer__slider slider-continuous slider-scale slider-lightBlue">
+                <input type="range" min="0" max="100" value="50">
+              </div>
             </div>
             <div class="da-slidecontainer-with-value">
               <div class="da-slidecontainer-with-value__text">B</div>
-              <input class="da-slidecontainer__slider blue" id="myRange3" type="range" min="1" max="100" value="50"><span id="demo3"></span>
+              <div class="da-slidecontainer__slider slider-continuous slider-lightBlue">
+                <input type="range" min="0" max="100" value="50">
+              </div>
             </div>
             <div class="da-slidecontainer__header">Brightness</div>
-            <input class="da-slidecontainer__slider big-gr" id="myRange" type="range" min="1" max="100" value="50">
+            <div class="da-slidecontainer__slider slider-discrete slider-lightGreen">
+              <input type="range" min="0" max="100" value="50">
+            </div>
             <div class="da-slidecontainer__header">Ratings</div>
-            <input class="da-slidecontainer__slider big-gr" id="myRange" type="range" min="1" max="100" value="50">
+            <div class="da-slidecontainer__slider slider-discrete slider-lightGreen">
+              <input type="range" min="0" max="100" value="50">
+            </div>
           </div>
         </xmp><span class="siteContent_elementTitle" id="switch">Switch(Toggle)</span><span class="pretty-descrip">
           Switches toggle the state of a single setting on or off. They are the preferredway to adjust settings on mobile. The option that the switch controls, as well as the state
@@ -1321,6 +1361,8 @@
             <button class="da-toast-connect__button">RETRY</button>
           </div>
           <div class="da-toast-message">Message sent</div>
+          <button class="da-button da-toast-button" onclick="myFunction()">Show toast</button>
+          <div id="da-toast-example">Your draft has been discarded.</div>
         </div>
         <pan class="pretty-descrip">Materialize provides an easy way for you to send unobtrusive alerts to your users through toasts. These toasts are also placed and sized responsively</pan>
         <xmp class="prettyprint pretty-code">
@@ -1330,6 +1372,8 @@
               <button class="da-toast-connect__button">RETRY</button>
             </div>
             <div class="da-toast-message">Message sent</div>
+            <button class="da-button da-toast-button" onclick="myFunction()">Show toast</button>
+            <div id="da-toast-example">Your draft has been discarded.</div>
           </div>
         </xmp><span class="siteContent_elementTitle" id="toolbar">Toolbar</span><span class="pretty-descrip">
           In computer interface design, a toolbar is a graphical control element onwhich on-screen buttons, icons, menus, or other input or output elements are placed. Toolbars
@@ -1519,5 +1563,8 @@
     <script src="js/slider.js"></script>
     <script src="js/slider2.js"></script>
     <script src="js/slider1.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script src="js/toast.js"></script>
+    <script src="js/dialog.js"></script>
   </body>
 </html>

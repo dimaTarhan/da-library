@@ -348,13 +348,19 @@
   color: #7d7d7d;
 }
 
-.da-dropdown {
+.da-menu {
+  display: none;
   width: 204px;
-  height: 168px;
+  height: 180px;
   border-radius: 2px;
   -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26);
           box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26);
-  background-color: color-white;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.visible {
+  display: block;
 }
 
 .da-dropdown__el {
@@ -379,6 +385,10 @@
   padding-left: 20px;
   color: #4d4d4e;
   margin-top: 20px;
+}
+
+.da-dropdown__el:hover {
+  background: #f5f7f7;
 }
 
 .da-dropdown {
@@ -541,6 +551,76 @@
   margin: 0px 40px 60px 40px;
 }
 
+#da-toast-example {
+  width: 288px;
+  border-radius: 3px;
+  background-color: #323232;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+}
+
+#da-toast-example.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+          animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}
+
 .da-dialog {
   margin: 0 auto;
   padding-bottom: 10px;
@@ -556,6 +636,41 @@
   white-space: nowrap;
   font-size: 32px;
   font-weight: bold;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.da-dialog {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .material-icons.darkblue {
@@ -599,26 +714,11 @@
 
 .da-slidecontainer__slider {
   -webkit-appearance: none;
-  width: 739px;
+  width: 600px;
   height: 2px;
   background-color: #c8c8c8;
   border-radius: 5px;
   outline: none;
-}
-
-.da-slidecontainer__slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  border-radius: 50%;
-  width: 12px;
-  height: 12px;
-  background-color: #f4b400;
-  cursor: pointer;
-}
-
-.big-or::-webkit-slider-thumb {
-  width: 31px;
-  height: 31px;
 }
 
 .da-slidecontainer-with-value {
@@ -636,22 +736,13 @@
   height: 19px;
   font-size: 16px;
   color: #000000;
+  margin-right: -10px;
 }
 
 #demo,
 #demo2,
 #demo3 {
   text-decoration: underline;
-}
-
-.blue::-webkit-slider-thumb {
-  background: blue;
-}
-
-.big-gr::-webkit-slider-thumb {
-  width: 12px;
-  height: 12px;
-  background-color: #179a51;
 }
 
 .da-shadow-1 {
