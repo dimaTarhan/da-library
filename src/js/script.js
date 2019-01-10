@@ -1,4 +1,4 @@
-window.onload = function () {
+document.addEventListener('DOMContentLoaded', function () {
     /*Select Sidebar Elements*/
     let linkItems = document.getElementsByClassName('da-sidebar__link');
     let elementsWraper = document.getElementsByClassName('da-sidebar__nav');
@@ -128,4 +128,4 @@ window.onload = function () {
     
     
    
-};
+});
