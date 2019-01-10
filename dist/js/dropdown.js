@@ -1,4 +1,4 @@
-window.onload = function() {
+document.addEventListener('DOMContentLoaded', function() {
   document.addEventListener("click", event => {
     if (event.target.matches(".da-menu-button")) {
       event.target.nextElementSibling.classList.toggle("visible");
@@ -14,4 +14,4 @@ window.onload = function() {
       console.dir(event.target.innerText);
     }
   });
-};
+});
