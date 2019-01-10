@@ -1,26 +1,37 @@
+
 .da-slidecontainer
 	.da-slidecontainer__header Music, video, games & other media
-	input#myRange.da-slidecontainer__slider(type='range', min='1', max='100', value='50')
+	.da-slidecontainer__slider.slider-continuous.slider-lightOrange
+		input(type='range', min='0', max='100', value='50')
+
 	.da-slidecontainer__header Notifications
-	input#myRange.da-slidecontainer__slider.big-or(type='range', min='1', max='100', value='50')
+	.da-slidecontainer__slider.slider-continuous.slider-scale.slider-lightOrange
+		input(type='range', min='0', max='100', value='50')
 
 	.da-slidecontainer-with-value
 		.da-slidecontainer-with-value__text R
-		input#myRange1.da-slidecontainer__slider.blue(type='range', min='1', max='100', value='50')
-		span#demo
+		.da-slidecontainer__slider.slider-continuous.slider-lightBlue
+			input(type='range', min='0', max='100', value='50')
+
+
 	.da-slidecontainer-with-value
 		.da-slidecontainer-with-value__text G
-		input#myRange2.da-slidecontainer__slider.big(type='range', min='1', max='100', value='50')
-		span#demo2
+		.da-slidecontainer__slider.slider-continuous.slider-scale.slider-lightBlue
+			input(type='range', min='0', max='100', value='50')
+	
+
 	.da-slidecontainer-with-value
 		.da-slidecontainer-with-value__text B
-		input#myRange3.da-slidecontainer__slider.blue(type='range', min='1', max='100', value='50')
-		span#demo3
+		.da-slidecontainer__slider.slider-continuous.slider-lightBlue
+			input(type='range', min='0', max='100', value='50')
+
 	
 	.da-slidecontainer__header Brightness
-	input#myRange.da-slidecontainer__slider.big-gr(type='range', min='1', max='100', value='50')
+	.da-slidecontainer__slider.slider-discrete.slider-lightGreen
+			input(type='range', min='0', max='100', value='50')
 	.da-slidecontainer__header Ratings
-	input#myRange.da-slidecontainer__slider.big-gr(type='range', min='1', max='100', value='50')
+	.da-slidecontainer__slider.slider-discrete.slider-lightGreen
+			input(type='range', min='0', max='100', value='50')
 	
 
 

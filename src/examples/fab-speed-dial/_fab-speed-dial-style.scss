@@ -21,11 +21,11 @@
           transition: all .1s ease-out;  
 }
 
-.buttons:active, 
-.buttons:focus, 
-.buttons:hover {
+ 
+.buttons:focus {
   box-shadow: 0 0 4px rgba(0,0,0,.14),
     0 4px 8px rgba(0,0,0,.28);
+  outline:none;
 }
 
 .buttons:not(:last-child) {

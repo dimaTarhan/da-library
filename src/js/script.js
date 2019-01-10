@@ -125,5 +125,7 @@ window.onload = function () {
             scrollTop: $(target).offset().top - 80
         }, 500)
     });
-
+    
+    
+   
 };
