@@ -8,11 +8,10 @@ $lightgreen:#179a51;
   margin-left:60px;
 }
 .da-slidecontainer{
-  margin-top: 50px;
+  width: 700px;
+  margin: 50px auto;
   display: flex;
   flex-direction: column;
-  margin-bottom:60px;
-	margin-left: 80px;
 	&__header{
 		font-family: $font-family;
  		font-size: 16px;
