@@ -2,7 +2,6 @@
 $(document).ready(function() {
 
   $('.da-slidecontainer__slider').rkmd_rangeSlider();
-  change_slider_color();
 
 });
 
