@@ -472,7 +472,8 @@
 }
 
 .da-slidecontainer {
-  margin-top: 50px;
+  width: 700px;
+  margin: 50px auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -480,8 +481,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-bottom: 60px;
-  margin-left: 80px;
 }
 
 .da-slidecontainer__header {
