@@ -12,6 +12,7 @@ View project you can here: [**DA-Library**](https://dimatarhan.github.io/da-libr
 + Gulp
 + JavaScript
 + jQuery
++ BEM
 + other element libraries (rippleJS; Material Design)
 
 ## How to use the library?
