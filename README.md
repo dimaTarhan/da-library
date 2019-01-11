@@ -1,4 +1,4 @@
-# DA-Library - Elements library for your project 
+# DA-Library - Style library for elements in your project 
 The library contains styles for widely used site elements.
 Here you can see stylized elements, see examples of their use and download the style library!
 
@@ -24,6 +24,6 @@ View project you can here: [**DA-Library**](https://dimatarhan.github.io/da-libr
 ### Good luck!
 
 ## Result:
-Click on image to open the elements library!
+Click on image to open the style library!
 
 [![home](https://github.com/dimaTarhan/da-library/blob/master/da-library-example.png)](https://dimatarhan.github.io/da-library/dist/index.html)
